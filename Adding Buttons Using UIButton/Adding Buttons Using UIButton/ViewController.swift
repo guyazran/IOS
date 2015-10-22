@@ -15,10 +15,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        button = UIButton(type: UIButtonType.System);
+        button = UIButton(type: UIButtonType.Custom);
         button.frame = CGRect(x: 110, y: 70, width: 100, height: 50);
         button.setTitle("Press Me", forState: UIControlState.Normal);
         button.setTitle("I'm Pressed", forState: UIControlState.Highlighted);
+        
+        let normalImagge = UIImage(named: "red_button");
+        let highlightedImage = UIImage(named: "grey_button");
+        
+        button.setBackgroundImage(normalImagge, forState: .Normal);
+        button.setBackgroundImage(highlightedImage, forState: .Highlighted);
+        
         button.addTarget(self, action: "buttonIsPressed:", forControlEvents: UIControlEvents.TouchDown);
         button.addTarget(self, action: "buttonIsTapped:", forControlEvents: UIControlEvents.TouchUpInside)
         
