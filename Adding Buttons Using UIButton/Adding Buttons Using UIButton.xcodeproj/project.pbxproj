@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F41CEFA1BD8E0600095065C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41CEF91BD8E0600095065C /* AppDelegate.swift */; };
+		3F41CEFC1BD8E0600095065C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41CEFB1BD8E0600095065C /* ViewController.swift */; };
+		3F41CEFF1BD8E0600095065C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F41CEFD1BD8E0600095065C /* Main.storyboard */; };
+		3F41CF011BD8E0600095065C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F41CF001BD8E0600095065C /* Assets.xcassets */; };
+		3F41CF041BD8E0600095065C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F41CF021BD8E0600095065C /* LaunchScreen.storyboard */; };
+		3F41CF0F1BD8E0600095065C /* Adding_Buttons_Using_UIButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41CF0E1BD8E0600095065C /* Adding_Buttons_Using_UIButtonTests.swift */; };
+		3F41CF1A1BD8E0600095065C /* Adding_Buttons_Using_UIButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41CF191BD8E0600095065C /* Adding_Buttons_Using_UIButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F41CF0B1BD8E0600095065C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F41CEEE1BD8E0600095065C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F41CEF51BD8E0600095065C;
+			remoteInfo = "Adding Buttons Using UIButton";
+		};
+		3F41CF161BD8E0600095065C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F41CEEE1BD8E0600095065C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F41CEF51BD8E0600095065C;
+			remoteInfo = "Adding Buttons Using UIButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F41CEF61BD8E0600095065C /* Adding Buttons Using UIButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adding Buttons Using UIButton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F41CEF91BD8E0600095065C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F41CEFB1BD8E0600095065C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F41CEFE1BD8E0600095065C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F41CF001BD8E0600095065C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F41CF031BD8E0600095065C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F41CF051BD8E0600095065C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F41CF0A1BD8E0600095065C /* Adding Buttons Using UIButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adding Buttons Using UIButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F41CF0E1BD8E0600095065C /* Adding_Buttons_Using_UIButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adding_Buttons_Using_UIButtonTests.swift; sourceTree = "<group>"; };
+		3F41CF101BD8E0600095065C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F41CF151BD8E0600095065C /* Adding Buttons Using UIButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adding Buttons Using UIButtonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F41CF191BD8E0600095065C /* Adding_Buttons_Using_UIButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adding_Buttons_Using_UIButtonUITests.swift; sourceTree = "<group>"; };
+		3F41CF1B1BD8E0600095065C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F41CEF31BD8E0600095065C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F41CF071BD8E0600095065C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F41CF121BD8E0600095065C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F41CEED1BD8E0600095065C = {
+			isa = PBXGroup;
+			children = (
+				3F41CEF81BD8E0600095065C /* Adding Buttons Using UIButton */,
+				3F41CF0D1BD8E0600095065C /* Adding Buttons Using UIButtonTests */,
+				3F41CF181BD8E0600095065C /* Adding Buttons Using UIButtonUITests */,
+				3F41CEF71BD8E0600095065C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F41CEF71BD8E0600095065C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F41CEF61BD8E0600095065C /* Adding Buttons Using UIButton.app */,
+				3F41CF0A1BD8E0600095065C /* Adding Buttons Using UIButtonTests.xctest */,
+				3F41CF151BD8E0600095065C /* Adding Buttons Using UIButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F41CEF81BD8E0600095065C /* Adding Buttons Using UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				3F41CEF91BD8E0600095065C /* AppDelegate.swift */,
+				3F41CEFB1BD8E0600095065C /* ViewController.swift */,
+				3F41CEFD1BD8E0600095065C /* Main.storyboard */,
+				3F41CF001BD8E0600095065C /* Assets.xcassets */,
+				3F41CF021BD8E0600095065C /* LaunchScreen.storyboard */,
+				3F41CF051BD8E0600095065C /* Info.plist */,
+			);
+			path = "Adding Buttons Using UIButton";
+			sourceTree = "<group>";
+		};
+		3F41CF0D1BD8E0600095065C /* Adding Buttons Using UIButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F41CF0E1BD8E0600095065C /* Adding_Buttons_Using_UIButtonTests.swift */,
+				3F41CF101BD8E0600095065C /* Info.plist */,
+			);
+			path = "Adding Buttons Using UIButtonTests";
+			sourceTree = "<group>";
+		};
+		3F41CF181BD8E0600095065C /* Adding Buttons Using UIButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F41CF191BD8E0600095065C /* Adding_Buttons_Using_UIButtonUITests.swift */,
+				3F41CF1B1BD8E0600095065C /* Info.plist */,
+			);
+			path = "Adding Buttons Using UIButtonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F41CEF51BD8E0600095065C /* Adding Buttons Using UIButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F41CF1E1BD8E0600095065C /* Build configuration list for PBXNativeTarget "Adding Buttons Using UIButton" */;
+			buildPhases = (
+				3F41CEF21BD8E0600095065C /* Sources */,
+				3F41CEF31BD8E0600095065C /* Frameworks */,
+				3F41CEF41BD8E0600095065C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adding Buttons Using UIButton";
+			productName = "Adding Buttons Using UIButton";
+			productReference = 3F41CEF61BD8E0600095065C /* Adding Buttons Using UIButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F41CF091BD8E0600095065C /* Adding Buttons Using UIButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F41CF211BD8E0600095065C /* Build configuration list for PBXNativeTarget "Adding Buttons Using UIButtonTests" */;
+			buildPhases = (
+				3F41CF061BD8E0600095065C /* Sources */,
+				3F41CF071BD8E0600095065C /* Frameworks */,
+				3F41CF081BD8E0600095065C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F41CF0C1BD8E0600095065C /* PBXTargetDependency */,
+			);
+			name = "Adding Buttons Using UIButtonTests";
+			productName = "Adding Buttons Using UIButtonTests";
+			productReference = 3F41CF0A1BD8E0600095065C /* Adding Buttons Using UIButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F41CF141BD8E0600095065C /* Adding Buttons Using UIButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F41CF241BD8E0600095065C /* Build configuration list for PBXNativeTarget "Adding Buttons Using UIButtonUITests" */;
+			buildPhases = (
+				3F41CF111BD8E0600095065C /* Sources */,
+				3F41CF121BD8E0600095065C /* Frameworks */,
+				3F41CF131BD8E0600095065C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F41CF171BD8E0600095065C /* PBXTargetDependency */,
+			);
+			name = "Adding Buttons Using UIButtonUITests";
+			productName = "Adding Buttons Using UIButtonUITests";
+			productReference = 3F41CF151BD8E0600095065C /* Adding Buttons Using UIButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F41CEEE1BD8E0600095065C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Guy Azran";
+				TargetAttributes = {
+					3F41CEF51BD8E0600095065C = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+					};
+					3F41CF091BD8E0600095065C = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3F41CEF51BD8E0600095065C;
+					};
+					3F41CF141BD8E0600095065C = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3F41CEF51BD8E0600095065C;
+					};
+				};
+			};
+			buildConfigurationList = 3F41CEF11BD8E0600095065C /* Build configuration list for PBXProject "Adding Buttons Using UIButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F41CEED1BD8E0600095065C;
+			productRefGroup = 3F41CEF71BD8E0600095065C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F41CEF51BD8E0600095065C /* Adding Buttons Using UIButton */,
+				3F41CF091BD8E0600095065C /* Adding Buttons Using UIButtonTests */,
+				3F41CF141BD8E0600095065C /* Adding Buttons Using UIButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F41CEF41BD8E0600095065C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F41CF041BD8E0600095065C /* LaunchScreen.storyboard in Resources */,
+				3F41CF011BD8E0600095065C /* Assets.xcassets in Resources */,
+				3F41CEFF1BD8E0600095065C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F41CF081BD8E0600095065C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F41CF131BD8E0600095065C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F41CEF21BD8E0600095065C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F41CEFC1BD8E0600095065C /* ViewController.swift in Sources */,
+				3F41CEFA1BD8E0600095065C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F41CF061BD8E0600095065C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F41CF0F1BD8E0600095065C /* Adding_Buttons_Using_UIButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F41CF111BD8E0600095065C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F41CF1A1BD8E0600095065C /* Adding_Buttons_Using_UIButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F41CF0C1BD8E0600095065C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F41CEF51BD8E0600095065C /* Adding Buttons Using UIButton */;
+			targetProxy = 3F41CF0B1BD8E0600095065C /* PBXContainerItemProxy */;
+		};
+		3F41CF171BD8E0600095065C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F41CEF51BD8E0600095065C /* Adding Buttons Using UIButton */;
+			targetProxy = 3F41CF161BD8E0600095065C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F41CEFD1BD8E0600095065C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F41CEFE1BD8E0600095065C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F41CF021BD8E0600095065C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F41CF031BD8E0600095065C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F41CF1C1BD8E0600095065C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F41CF1D1BD8E0600095065C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F41CF1F1BD8E0600095065C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Adding Buttons Using UIButton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Adding-Buttons-Using-UIButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3F41CF201BD8E0600095065C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Adding Buttons Using UIButton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Adding-Buttons-Using-UIButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3F41CF221BD8E0600095065C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Adding Buttons Using UIButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Adding-Buttons-Using-UIButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adding Buttons Using UIButton.app/Adding Buttons Using UIButton";
+			};
+			name = Debug;
+		};
+		3F41CF231BD8E0600095065C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Adding Buttons Using UIButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Adding-Buttons-Using-UIButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adding Buttons Using UIButton.app/Adding Buttons Using UIButton";
+			};
+			name = Release;
+		};
+		3F41CF251BD8E0600095065C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Adding Buttons Using UIButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Adding-Buttons-Using-UIButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Adding Buttons Using UIButton";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F41CF261BD8E0600095065C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Adding Buttons Using UIButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Adding-Buttons-Using-UIButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Adding Buttons Using UIButton";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F41CEF11BD8E0600095065C /* Build configuration list for PBXProject "Adding Buttons Using UIButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F41CF1C1BD8E0600095065C /* Debug */,
+				3F41CF1D1BD8E0600095065C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F41CF1E1BD8E0600095065C /* Build configuration list for PBXNativeTarget "Adding Buttons Using UIButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F41CF1F1BD8E0600095065C /* Debug */,
+				3F41CF201BD8E0600095065C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F41CF211BD8E0600095065C /* Build configuration list for PBXNativeTarget "Adding Buttons Using UIButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F41CF221BD8E0600095065C /* Debug */,
+				3F41CF231BD8E0600095065C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F41CF241BD8E0600095065C /* Build configuration list for PBXNativeTarget "Adding Buttons Using UIButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F41CF251BD8E0600095065C /* Debug */,
+				3F41CF261BD8E0600095065C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F41CEEE1BD8E0600095065C /* Project object */;
+}
