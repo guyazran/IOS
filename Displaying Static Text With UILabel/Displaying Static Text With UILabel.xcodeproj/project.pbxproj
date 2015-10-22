@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F41CEC01BD8DAC30095065C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41CEBF1BD8DAC30095065C /* AppDelegate.swift */; };
+		3F41CEC21BD8DAC30095065C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41CEC11BD8DAC30095065C /* ViewController.swift */; };
+		3F41CEC51BD8DAC30095065C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F41CEC31BD8DAC30095065C /* Main.storyboard */; };
+		3F41CEC71BD8DAC40095065C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F41CEC61BD8DAC40095065C /* Assets.xcassets */; };
+		3F41CECA1BD8DAC40095065C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F41CEC81BD8DAC40095065C /* LaunchScreen.storyboard */; };
+		3F41CED51BD8DAC40095065C /* Displaying_Static_Text_With_UILabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41CED41BD8DAC40095065C /* Displaying_Static_Text_With_UILabelTests.swift */; };
+		3F41CEE01BD8DAC40095065C /* Displaying_Static_Text_With_UILabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41CEDF1BD8DAC40095065C /* Displaying_Static_Text_With_UILabelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F41CED11BD8DAC40095065C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F41CEB41BD8DAC30095065C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F41CEBB1BD8DAC30095065C;
+			remoteInfo = "Displaying Static Text With UILabel";
+		};
+		3F41CEDC1BD8DAC40095065C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F41CEB41BD8DAC30095065C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F41CEBB1BD8DAC30095065C;
+			remoteInfo = "Displaying Static Text With UILabel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F41CEBC1BD8DAC30095065C /* Displaying Static Text With UILabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Displaying Static Text With UILabel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F41CEBF1BD8DAC30095065C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F41CEC11BD8DAC30095065C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F41CEC41BD8DAC30095065C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F41CEC61BD8DAC40095065C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F41CEC91BD8DAC40095065C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F41CECB1BD8DAC40095065C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F41CED01BD8DAC40095065C /* Displaying Static Text With UILabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Displaying Static Text With UILabelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F41CED41BD8DAC40095065C /* Displaying_Static_Text_With_UILabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Displaying_Static_Text_With_UILabelTests.swift; sourceTree = "<group>"; };
+		3F41CED61BD8DAC40095065C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F41CEDB1BD8DAC40095065C /* Displaying Static Text With UILabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Displaying Static Text With UILabelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F41CEDF1BD8DAC40095065C /* Displaying_Static_Text_With_UILabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Displaying_Static_Text_With_UILabelUITests.swift; sourceTree = "<group>"; };
+		3F41CEE11BD8DAC40095065C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F41CEB91BD8DAC30095065C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F41CECD1BD8DAC40095065C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F41CED81BD8DAC40095065C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F41CEB31BD8DAC30095065C = {
+			isa = PBXGroup;
+			children = (
+				3F41CEBE1BD8DAC30095065C /* Displaying Static Text With UILabel */,
+				3F41CED31BD8DAC40095065C /* Displaying Static Text With UILabelTests */,
+				3F41CEDE1BD8DAC40095065C /* Displaying Static Text With UILabelUITests */,
+				3F41CEBD1BD8DAC30095065C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F41CEBD1BD8DAC30095065C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F41CEBC1BD8DAC30095065C /* Displaying Static Text With UILabel.app */,
+				3F41CED01BD8DAC40095065C /* Displaying Static Text With UILabelTests.xctest */,
+				3F41CEDB1BD8DAC40095065C /* Displaying Static Text With UILabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F41CEBE1BD8DAC30095065C /* Displaying Static Text With UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				3F41CEBF1BD8DAC30095065C /* AppDelegate.swift */,
+				3F41CEC11BD8DAC30095065C /* ViewController.swift */,
+				3F41CEC31BD8DAC30095065C /* Main.storyboard */,
+				3F41CEC61BD8DAC40095065C /* Assets.xcassets */,
+				3F41CEC81BD8DAC40095065C /* LaunchScreen.storyboard */,
+				3F41CECB1BD8DAC40095065C /* Info.plist */,
+			);
+			path = "Displaying Static Text With UILabel";
+			sourceTree = "<group>";
+		};
+		3F41CED31BD8DAC40095065C /* Displaying Static Text With UILabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F41CED41BD8DAC40095065C /* Displaying_Static_Text_With_UILabelTests.swift */,
+				3F41CED61BD8DAC40095065C /* Info.plist */,
+			);
+			path = "Displaying Static Text With UILabelTests";
+			sourceTree = "<group>";
+		};
+		3F41CEDE1BD8DAC40095065C /* Displaying Static Text With UILabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F41CEDF1BD8DAC40095065C /* Displaying_Static_Text_With_UILabelUITests.swift */,
+				3F41CEE11BD8DAC40095065C /* Info.plist */,
+			);
+			path = "Displaying Static Text With UILabelUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F41CEBB1BD8DAC30095065C /* Displaying Static Text With UILabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F41CEE41BD8DAC40095065C /* Build configuration list for PBXNativeTarget "Displaying Static Text With UILabel" */;
+			buildPhases = (
+				3F41CEB81BD8DAC30095065C /* Sources */,
+				3F41CEB91BD8DAC30095065C /* Frameworks */,
+				3F41CEBA1BD8DAC30095065C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Displaying Static Text With UILabel";
+			productName = "Displaying Static Text With UILabel";
+			productReference = 3F41CEBC1BD8DAC30095065C /* Displaying Static Text With UILabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F41CECF1BD8DAC40095065C /* Displaying Static Text With UILabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F41CEE71BD8DAC40095065C /* Build configuration list for PBXNativeTarget "Displaying Static Text With UILabelTests" */;
+			buildPhases = (
+				3F41CECC1BD8DAC40095065C /* Sources */,
+				3F41CECD1BD8DAC40095065C /* Frameworks */,
+				3F41CECE1BD8DAC40095065C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F41CED21BD8DAC40095065C /* PBXTargetDependency */,
+			);
+			name = "Displaying Static Text With UILabelTests";
+			productName = "Displaying Static Text With UILabelTests";
+			productReference = 3F41CED01BD8DAC40095065C /* Displaying Static Text With UILabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F41CEDA1BD8DAC40095065C /* Displaying Static Text With UILabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F41CEEA1BD8DAC40095065C /* Build configuration list for PBXNativeTarget "Displaying Static Text With UILabelUITests" */;
+			buildPhases = (
+				3F41CED71BD8DAC40095065C /* Sources */,
+				3F41CED81BD8DAC40095065C /* Frameworks */,
+				3F41CED91BD8DAC40095065C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F41CEDD1BD8DAC40095065C /* PBXTargetDependency */,
+			);
+			name = "Displaying Static Text With UILabelUITests";
+			productName = "Displaying Static Text With UILabelUITests";
+			productReference = 3F41CEDB1BD8DAC40095065C /* Displaying Static Text With UILabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F41CEB41BD8DAC30095065C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Guy Azran";
+				TargetAttributes = {
+					3F41CEBB1BD8DAC30095065C = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+					};
+					3F41CECF1BD8DAC40095065C = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3F41CEBB1BD8DAC30095065C;
+					};
+					3F41CEDA1BD8DAC40095065C = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3F41CEBB1BD8DAC30095065C;
+					};
+				};
+			};
+			buildConfigurationList = 3F41CEB71BD8DAC30095065C /* Build configuration list for PBXProject "Displaying Static Text With UILabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F41CEB31BD8DAC30095065C;
+			productRefGroup = 3F41CEBD1BD8DAC30095065C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F41CEBB1BD8DAC30095065C /* Displaying Static Text With UILabel */,
+				3F41CECF1BD8DAC40095065C /* Displaying Static Text With UILabelTests */,
+				3F41CEDA1BD8DAC40095065C /* Displaying Static Text With UILabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F41CEBA1BD8DAC30095065C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F41CECA1BD8DAC40095065C /* LaunchScreen.storyboard in Resources */,
+				3F41CEC71BD8DAC40095065C /* Assets.xcassets in Resources */,
+				3F41CEC51BD8DAC30095065C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F41CECE1BD8DAC40095065C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F41CED91BD8DAC40095065C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F41CEB81BD8DAC30095065C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F41CEC21BD8DAC30095065C /* ViewController.swift in Sources */,
+				3F41CEC01BD8DAC30095065C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F41CECC1BD8DAC40095065C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F41CED51BD8DAC40095065C /* Displaying_Static_Text_With_UILabelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F41CED71BD8DAC40095065C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F41CEE01BD8DAC40095065C /* Displaying_Static_Text_With_UILabelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F41CED21BD8DAC40095065C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F41CEBB1BD8DAC30095065C /* Displaying Static Text With UILabel */;
+			targetProxy = 3F41CED11BD8DAC40095065C /* PBXContainerItemProxy */;
+		};
+		3F41CEDD1BD8DAC40095065C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F41CEBB1BD8DAC30095065C /* Displaying Static Text With UILabel */;
+			targetProxy = 3F41CEDC1BD8DAC40095065C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F41CEC31BD8DAC30095065C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F41CEC41BD8DAC30095065C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F41CEC81BD8DAC40095065C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F41CEC91BD8DAC40095065C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F41CEE21BD8DAC40095065C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F41CEE31BD8DAC40095065C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F41CEE51BD8DAC40095065C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Displaying Static Text With UILabel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Displaying-Static-Text-With-UILabel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F41CEE61BD8DAC40095065C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Displaying Static Text With UILabel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Displaying-Static-Text-With-UILabel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F41CEE81BD8DAC40095065C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Displaying Static Text With UILabelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Displaying-Static-Text-With-UILabelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Displaying Static Text With UILabel.app/Displaying Static Text With UILabel";
+			};
+			name = Debug;
+		};
+		3F41CEE91BD8DAC40095065C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Displaying Static Text With UILabelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Displaying-Static-Text-With-UILabelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Displaying Static Text With UILabel.app/Displaying Static Text With UILabel";
+			};
+			name = Release;
+		};
+		3F41CEEB1BD8DAC40095065C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Displaying Static Text With UILabelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Displaying-Static-Text-With-UILabelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Displaying Static Text With UILabel";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F41CEEC1BD8DAC40095065C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Displaying Static Text With UILabelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Displaying-Static-Text-With-UILabelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Displaying Static Text With UILabel";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F41CEB71BD8DAC30095065C /* Build configuration list for PBXProject "Displaying Static Text With UILabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F41CEE21BD8DAC40095065C /* Debug */,
+				3F41CEE31BD8DAC40095065C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F41CEE41BD8DAC40095065C /* Build configuration list for PBXNativeTarget "Displaying Static Text With UILabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F41CEE51BD8DAC40095065C /* Debug */,
+				3F41CEE61BD8DAC40095065C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F41CEE71BD8DAC40095065C /* Build configuration list for PBXNativeTarget "Displaying Static Text With UILabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F41CEE81BD8DAC40095065C /* Debug */,
+				3F41CEE91BD8DAC40095065C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F41CEEA1BD8DAC40095065C /* Build configuration list for PBXNativeTarget "Displaying Static Text With UILabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F41CEEB1BD8DAC40095065C /* Debug */,
+				3F41CEEC1BD8DAC40095065C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F41CEB41BD8DAC30095065C /* Project object */;
+}
