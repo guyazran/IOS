@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0D230A1BDE2AAA00A7675A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D23091BDE2AAA00A7675A /* AppDelegate.swift */; };
+		3F0D230C1BDE2AAA00A7675A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D230B1BDE2AAA00A7675A /* ViewController.swift */; };
+		3F0D230F1BDE2AAA00A7675A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D230D1BDE2AAA00A7675A /* Main.storyboard */; };
+		3F0D23111BDE2AAA00A7675A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D23101BDE2AAA00A7675A /* Assets.xcassets */; };
+		3F0D23141BDE2AAA00A7675A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D23121BDE2AAA00A7675A /* LaunchScreen.storyboard */; };
+		3F0D231F1BDE2AAA00A7675A /* What_Is_My_Date_of_BirthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D231E1BDE2AAA00A7675A /* What_Is_My_Date_of_BirthTests.swift */; };
+		3F0D232A1BDE2AAA00A7675A /* What_Is_My_Date_of_BirthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D23291BDE2AAA00A7675A /* What_Is_My_Date_of_BirthUITests.swift */; };
+		3F48767D1BDE5FD0001B63CA /* DatePickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F48767C1BDE5FD0001B63CA /* DatePickerViewDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F0D231B1BDE2AAA00A7675A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0D22FE1BDE2AAA00A7675A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0D23051BDE2AAA00A7675A;
+			remoteInfo = "What Is My Date of Birth";
+		};
+		3F0D23261BDE2AAA00A7675A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0D22FE1BDE2AAA00A7675A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0D23051BDE2AAA00A7675A;
+			remoteInfo = "What Is My Date of Birth";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F0D23061BDE2AAA00A7675A /* What Is My Date of Birth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What Is My Date of Birth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0D23091BDE2AAA00A7675A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F0D230B1BDE2AAA00A7675A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F0D230E1BDE2AAA00A7675A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F0D23101BDE2AAA00A7675A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0D23131BDE2AAA00A7675A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F0D23151BDE2AAA00A7675A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0D231A1BDE2AAA00A7675A /* What Is My Date of BirthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What Is My Date of BirthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0D231E1BDE2AAA00A7675A /* What_Is_My_Date_of_BirthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_Is_My_Date_of_BirthTests.swift; sourceTree = "<group>"; };
+		3F0D23201BDE2AAA00A7675A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0D23251BDE2AAA00A7675A /* What Is My Date of BirthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What Is My Date of BirthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0D23291BDE2AAA00A7675A /* What_Is_My_Date_of_BirthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_Is_My_Date_of_BirthUITests.swift; sourceTree = "<group>"; };
+		3F0D232B1BDE2AAA00A7675A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F48767C1BDE5FD0001B63CA /* DatePickerViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0D23031BDE2AAA00A7675A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0D23171BDE2AAA00A7675A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0D23221BDE2AAA00A7675A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0D22FD1BDE2AAA00A7675A = {
+			isa = PBXGroup;
+			children = (
+				3F0D23081BDE2AAA00A7675A /* What Is My Date of Birth */,
+				3F0D231D1BDE2AAA00A7675A /* What Is My Date of BirthTests */,
+				3F0D23281BDE2AAA00A7675A /* What Is My Date of BirthUITests */,
+				3F0D23071BDE2AAA00A7675A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0D23071BDE2AAA00A7675A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D23061BDE2AAA00A7675A /* What Is My Date of Birth.app */,
+				3F0D231A1BDE2AAA00A7675A /* What Is My Date of BirthTests.xctest */,
+				3F0D23251BDE2AAA00A7675A /* What Is My Date of BirthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0D23081BDE2AAA00A7675A /* What Is My Date of Birth */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D23091BDE2AAA00A7675A /* AppDelegate.swift */,
+				3F0D230B1BDE2AAA00A7675A /* ViewController.swift */,
+				3F0D230D1BDE2AAA00A7675A /* Main.storyboard */,
+				3F0D23101BDE2AAA00A7675A /* Assets.xcassets */,
+				3F0D23121BDE2AAA00A7675A /* LaunchScreen.storyboard */,
+				3F0D23151BDE2AAA00A7675A /* Info.plist */,
+				3F48767C1BDE5FD0001B63CA /* DatePickerViewDelegate.swift */,
+			);
+			path = "What Is My Date of Birth";
+			sourceTree = "<group>";
+		};
+		3F0D231D1BDE2AAA00A7675A /* What Is My Date of BirthTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D231E1BDE2AAA00A7675A /* What_Is_My_Date_of_BirthTests.swift */,
+				3F0D23201BDE2AAA00A7675A /* Info.plist */,
+			);
+			path = "What Is My Date of BirthTests";
+			sourceTree = "<group>";
+		};
+		3F0D23281BDE2AAA00A7675A /* What Is My Date of BirthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D23291BDE2AAA00A7675A /* What_Is_My_Date_of_BirthUITests.swift */,
+				3F0D232B1BDE2AAA00A7675A /* Info.plist */,
+			);
+			path = "What Is My Date of BirthUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0D23051BDE2AAA00A7675A /* What Is My Date of Birth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0D232E1BDE2AAA00A7675A /* Build configuration list for PBXNativeTarget "What Is My Date of Birth" */;
+			buildPhases = (
+				3F0D23021BDE2AAA00A7675A /* Sources */,
+				3F0D23031BDE2AAA00A7675A /* Frameworks */,
+				3F0D23041BDE2AAA00A7675A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "What Is My Date of Birth";
+			productName = "What Is My Date of Birth";
+			productReference = 3F0D23061BDE2AAA00A7675A /* What Is My Date of Birth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F0D23191BDE2AAA00A7675A /* What Is My Date of BirthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0D23311BDE2AAA00A7675A /* Build configuration list for PBXNativeTarget "What Is My Date of BirthTests" */;
+			buildPhases = (
+				3F0D23161BDE2AAA00A7675A /* Sources */,
+				3F0D23171BDE2AAA00A7675A /* Frameworks */,
+				3F0D23181BDE2AAA00A7675A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0D231C1BDE2AAA00A7675A /* PBXTargetDependency */,
+			);
+			name = "What Is My Date of BirthTests";
+			productName = "What Is My Date of BirthTests";
+			productReference = 3F0D231A1BDE2AAA00A7675A /* What Is My Date of BirthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F0D23241BDE2AAA00A7675A /* What Is My Date of BirthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0D23341BDE2AAA00A7675A /* Build configuration list for PBXNativeTarget "What Is My Date of BirthUITests" */;
+			buildPhases = (
+				3F0D23211BDE2AAA00A7675A /* Sources */,
+				3F0D23221BDE2AAA00A7675A /* Frameworks */,
+				3F0D23231BDE2AAA00A7675A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0D23271BDE2AAA00A7675A /* PBXTargetDependency */,
+			);
+			name = "What Is My Date of BirthUITests";
+			productName = "What Is My Date of BirthUITests";
+			productReference = 3F0D23251BDE2AAA00A7675A /* What Is My Date of BirthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0D22FE1BDE2AAA00A7675A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Guy Azran";
+				TargetAttributes = {
+					3F0D23051BDE2AAA00A7675A = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+					};
+					3F0D23191BDE2AAA00A7675A = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3F0D23051BDE2AAA00A7675A;
+					};
+					3F0D23241BDE2AAA00A7675A = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3F0D23051BDE2AAA00A7675A;
+					};
+				};
+			};
+			buildConfigurationList = 3F0D23011BDE2AAA00A7675A /* Build configuration list for PBXProject "What Is My Date of Birth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0D22FD1BDE2AAA00A7675A;
+			productRefGroup = 3F0D23071BDE2AAA00A7675A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0D23051BDE2AAA00A7675A /* What Is My Date of Birth */,
+				3F0D23191BDE2AAA00A7675A /* What Is My Date of BirthTests */,
+				3F0D23241BDE2AAA00A7675A /* What Is My Date of BirthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0D23041BDE2AAA00A7675A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0D23141BDE2AAA00A7675A /* LaunchScreen.storyboard in Resources */,
+				3F0D23111BDE2AAA00A7675A /* Assets.xcassets in Resources */,
+				3F0D230F1BDE2AAA00A7675A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0D23181BDE2AAA00A7675A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0D23231BDE2AAA00A7675A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0D23021BDE2AAA00A7675A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0D230C1BDE2AAA00A7675A /* ViewController.swift in Sources */,
+				3F0D230A1BDE2AAA00A7675A /* AppDelegate.swift in Sources */,
+				3F48767D1BDE5FD0001B63CA /* DatePickerViewDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0D23161BDE2AAA00A7675A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0D231F1BDE2AAA00A7675A /* What_Is_My_Date_of_BirthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0D23211BDE2AAA00A7675A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0D232A1BDE2AAA00A7675A /* What_Is_My_Date_of_BirthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0D231C1BDE2AAA00A7675A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0D23051BDE2AAA00A7675A /* What Is My Date of Birth */;
+			targetProxy = 3F0D231B1BDE2AAA00A7675A /* PBXContainerItemProxy */;
+		};
+		3F0D23271BDE2AAA00A7675A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0D23051BDE2AAA00A7675A /* What Is My Date of Birth */;
+			targetProxy = 3F0D23261BDE2AAA00A7675A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F0D230D1BDE2AAA00A7675A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0D230E1BDE2AAA00A7675A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0D23121BDE2AAA00A7675A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0D23131BDE2AAA00A7675A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0D232C1BDE2AAA00A7675A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F0D232D1BDE2AAA00A7675A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0D232F1BDE2AAA00A7675A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "What Is My Date of Birth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.What-Is-My-Date-of-Birth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F0D23301BDE2AAA00A7675A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "What Is My Date of Birth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.What-Is-My-Date-of-Birth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F0D23321BDE2AAA00A7675A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "What Is My Date of BirthTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.What-Is-My-Date-of-BirthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/What Is My Date of Birth.app/What Is My Date of Birth";
+			};
+			name = Debug;
+		};
+		3F0D23331BDE2AAA00A7675A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "What Is My Date of BirthTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.What-Is-My-Date-of-BirthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/What Is My Date of Birth.app/What Is My Date of Birth";
+			};
+			name = Release;
+		};
+		3F0D23351BDE2AAA00A7675A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "What Is My Date of BirthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.What-Is-My-Date-of-BirthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "What Is My Date of Birth";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F0D23361BDE2AAA00A7675A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "What Is My Date of BirthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.What-Is-My-Date-of-BirthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "What Is My Date of Birth";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0D23011BDE2AAA00A7675A /* Build configuration list for PBXProject "What Is My Date of Birth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0D232C1BDE2AAA00A7675A /* Debug */,
+				3F0D232D1BDE2AAA00A7675A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0D232E1BDE2AAA00A7675A /* Build configuration list for PBXNativeTarget "What Is My Date of Birth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0D232F1BDE2AAA00A7675A /* Debug */,
+				3F0D23301BDE2AAA00A7675A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0D23311BDE2AAA00A7675A /* Build configuration list for PBXNativeTarget "What Is My Date of BirthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0D23321BDE2AAA00A7675A /* Debug */,
+				3F0D23331BDE2AAA00A7675A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0D23341BDE2AAA00A7675A /* Build configuration list for PBXNativeTarget "What Is My Date of BirthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0D23351BDE2AAA00A7675A /* Debug */,
+				3F0D23361BDE2AAA00A7675A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0D22FE1BDE2AAA00A7675A /* Project object */;
+}
