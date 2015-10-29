@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FDCCA291BE256E000F8126D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCCA281BE256E000F8126D /* AppDelegate.swift */; };
+		3FDCCA2B1BE256E000F8126D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCCA2A1BE256E000F8126D /* ViewController.swift */; };
+		3FDCCA2E1BE256E000F8126D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCCA2C1BE256E000F8126D /* Main.storyboard */; };
+		3FDCCA301BE256E000F8126D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCCA2F1BE256E000F8126D /* Assets.xcassets */; };
+		3FDCCA331BE256E000F8126D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCCA311BE256E000F8126D /* LaunchScreen.storyboard */; };
+		3FDCCA3E1BE256E100F8126D /* Sharing_with_UIActivityViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCCA3D1BE256E100F8126D /* Sharing_with_UIActivityViewControllerTests.swift */; };
+		3FDCCA491BE256E100F8126D /* Sharing_with_UIActivityViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCCA481BE256E100F8126D /* Sharing_with_UIActivityViewControllerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FDCCA3A1BE256E100F8126D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDCCA1D1BE256E000F8126D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FDCCA241BE256E000F8126D;
+			remoteInfo = "Sharing with UIActivityViewController";
+		};
+		3FDCCA451BE256E100F8126D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDCCA1D1BE256E000F8126D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FDCCA241BE256E000F8126D;
+			remoteInfo = "Sharing with UIActivityViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FDCCA251BE256E000F8126D /* Sharing with UIActivityViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sharing with UIActivityViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDCCA281BE256E000F8126D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FDCCA2A1BE256E000F8126D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FDCCA2D1BE256E000F8126D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FDCCA2F1BE256E000F8126D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FDCCA321BE256E000F8126D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FDCCA341BE256E000F8126D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDCCA391BE256E100F8126D /* Sharing with UIActivityViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sharing with UIActivityViewControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDCCA3D1BE256E100F8126D /* Sharing_with_UIActivityViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sharing_with_UIActivityViewControllerTests.swift; sourceTree = "<group>"; };
+		3FDCCA3F1BE256E100F8126D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDCCA441BE256E100F8126D /* Sharing with UIActivityViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sharing with UIActivityViewControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDCCA481BE256E100F8126D /* Sharing_with_UIActivityViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sharing_with_UIActivityViewControllerUITests.swift; sourceTree = "<group>"; };
+		3FDCCA4A1BE256E100F8126D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FDCCA221BE256E000F8126D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDCCA361BE256E100F8126D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDCCA411BE256E100F8126D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FDCCA1C1BE256E000F8126D = {
+			isa = PBXGroup;
+			children = (
+				3FDCCA271BE256E000F8126D /* Sharing with UIActivityViewController */,
+				3FDCCA3C1BE256E100F8126D /* Sharing with UIActivityViewControllerTests */,
+				3FDCCA471BE256E100F8126D /* Sharing with UIActivityViewControllerUITests */,
+				3FDCCA261BE256E000F8126D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FDCCA261BE256E000F8126D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FDCCA251BE256E000F8126D /* Sharing with UIActivityViewController.app */,
+				3FDCCA391BE256E100F8126D /* Sharing with UIActivityViewControllerTests.xctest */,
+				3FDCCA441BE256E100F8126D /* Sharing with UIActivityViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FDCCA271BE256E000F8126D /* Sharing with UIActivityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3FDCCA281BE256E000F8126D /* AppDelegate.swift */,
+				3FDCCA2A1BE256E000F8126D /* ViewController.swift */,
+				3FDCCA2C1BE256E000F8126D /* Main.storyboard */,
+				3FDCCA2F1BE256E000F8126D /* Assets.xcassets */,
+				3FDCCA311BE256E000F8126D /* LaunchScreen.storyboard */,
+				3FDCCA341BE256E000F8126D /* Info.plist */,
+			);
+			path = "Sharing with UIActivityViewController";
+			sourceTree = "<group>";
+		};
+		3FDCCA3C1BE256E100F8126D /* Sharing with UIActivityViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FDCCA3D1BE256E100F8126D /* Sharing_with_UIActivityViewControllerTests.swift */,
+				3FDCCA3F1BE256E100F8126D /* Info.plist */,
+			);
+			path = "Sharing with UIActivityViewControllerTests";
+			sourceTree = "<group>";
+		};
+		3FDCCA471BE256E100F8126D /* Sharing with UIActivityViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FDCCA481BE256E100F8126D /* Sharing_with_UIActivityViewControllerUITests.swift */,
+				3FDCCA4A1BE256E100F8126D /* Info.plist */,
+			);
+			path = "Sharing with UIActivityViewControllerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FDCCA241BE256E000F8126D /* Sharing with UIActivityViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDCCA4D1BE256E100F8126D /* Build configuration list for PBXNativeTarget "Sharing with UIActivityViewController" */;
+			buildPhases = (
+				3FDCCA211BE256E000F8126D /* Sources */,
+				3FDCCA221BE256E000F8126D /* Frameworks */,
+				3FDCCA231BE256E000F8126D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sharing with UIActivityViewController";
+			productName = "Sharing with UIActivityViewController";
+			productReference = 3FDCCA251BE256E000F8126D /* Sharing with UIActivityViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FDCCA381BE256E100F8126D /* Sharing with UIActivityViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDCCA501BE256E100F8126D /* Build configuration list for PBXNativeTarget "Sharing with UIActivityViewControllerTests" */;
+			buildPhases = (
+				3FDCCA351BE256E100F8126D /* Sources */,
+				3FDCCA361BE256E100F8126D /* Frameworks */,
+				3FDCCA371BE256E100F8126D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FDCCA3B1BE256E100F8126D /* PBXTargetDependency */,
+			);
+			name = "Sharing with UIActivityViewControllerTests";
+			productName = "Sharing with UIActivityViewControllerTests";
+			productReference = 3FDCCA391BE256E100F8126D /* Sharing with UIActivityViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FDCCA431BE256E100F8126D /* Sharing with UIActivityViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDCCA531BE256E100F8126D /* Build configuration list for PBXNativeTarget "Sharing with UIActivityViewControllerUITests" */;
+			buildPhases = (
+				3FDCCA401BE256E100F8126D /* Sources */,
+				3FDCCA411BE256E100F8126D /* Frameworks */,
+				3FDCCA421BE256E100F8126D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FDCCA461BE256E100F8126D /* PBXTargetDependency */,
+			);
+			name = "Sharing with UIActivityViewControllerUITests";
+			productName = "Sharing with UIActivityViewControllerUITests";
+			productReference = 3FDCCA441BE256E100F8126D /* Sharing with UIActivityViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FDCCA1D1BE256E000F8126D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Guy Azran";
+				TargetAttributes = {
+					3FDCCA241BE256E000F8126D = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+					};
+					3FDCCA381BE256E100F8126D = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3FDCCA241BE256E000F8126D;
+					};
+					3FDCCA431BE256E100F8126D = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3FDCCA241BE256E000F8126D;
+					};
+				};
+			};
+			buildConfigurationList = 3FDCCA201BE256E000F8126D /* Build configuration list for PBXProject "Sharing with UIActivityViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FDCCA1C1BE256E000F8126D;
+			productRefGroup = 3FDCCA261BE256E000F8126D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FDCCA241BE256E000F8126D /* Sharing with UIActivityViewController */,
+				3FDCCA381BE256E100F8126D /* Sharing with UIActivityViewControllerTests */,
+				3FDCCA431BE256E100F8126D /* Sharing with UIActivityViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FDCCA231BE256E000F8126D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDCCA331BE256E000F8126D /* LaunchScreen.storyboard in Resources */,
+				3FDCCA301BE256E000F8126D /* Assets.xcassets in Resources */,
+				3FDCCA2E1BE256E000F8126D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDCCA371BE256E100F8126D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDCCA421BE256E100F8126D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FDCCA211BE256E000F8126D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDCCA2B1BE256E000F8126D /* ViewController.swift in Sources */,
+				3FDCCA291BE256E000F8126D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDCCA351BE256E100F8126D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDCCA3E1BE256E100F8126D /* Sharing_with_UIActivityViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDCCA401BE256E100F8126D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDCCA491BE256E100F8126D /* Sharing_with_UIActivityViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FDCCA3B1BE256E100F8126D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FDCCA241BE256E000F8126D /* Sharing with UIActivityViewController */;
+			targetProxy = 3FDCCA3A1BE256E100F8126D /* PBXContainerItemProxy */;
+		};
+		3FDCCA461BE256E100F8126D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FDCCA241BE256E000F8126D /* Sharing with UIActivityViewController */;
+			targetProxy = 3FDCCA451BE256E100F8126D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FDCCA2C1BE256E000F8126D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDCCA2D1BE256E000F8126D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FDCCA311BE256E000F8126D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDCCA321BE256E000F8126D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FDCCA4B1BE256E100F8126D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FDCCA4C1BE256E100F8126D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FDCCA4E1BE256E100F8126D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sharing with UIActivityViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Sharing-with-UIActivityViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FDCCA4F1BE256E100F8126D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sharing with UIActivityViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Sharing-with-UIActivityViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FDCCA511BE256E100F8126D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sharing with UIActivityViewControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Sharing-with-UIActivityViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sharing with UIActivityViewController.app/Sharing with UIActivityViewController";
+			};
+			name = Debug;
+		};
+		3FDCCA521BE256E100F8126D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sharing with UIActivityViewControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Sharing-with-UIActivityViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sharing with UIActivityViewController.app/Sharing with UIActivityViewController";
+			};
+			name = Release;
+		};
+		3FDCCA541BE256E100F8126D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sharing with UIActivityViewControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Sharing-with-UIActivityViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sharing with UIActivityViewController";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FDCCA551BE256E100F8126D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sharing with UIActivityViewControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Sharing-with-UIActivityViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sharing with UIActivityViewController";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FDCCA201BE256E000F8126D /* Build configuration list for PBXProject "Sharing with UIActivityViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDCCA4B1BE256E100F8126D /* Debug */,
+				3FDCCA4C1BE256E100F8126D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDCCA4D1BE256E100F8126D /* Build configuration list for PBXNativeTarget "Sharing with UIActivityViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDCCA4E1BE256E100F8126D /* Debug */,
+				3FDCCA4F1BE256E100F8126D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FDCCA501BE256E100F8126D /* Build configuration list for PBXNativeTarget "Sharing with UIActivityViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDCCA511BE256E100F8126D /* Debug */,
+				3FDCCA521BE256E100F8126D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FDCCA531BE256E100F8126D /* Build configuration list for PBXNativeTarget "Sharing with UIActivityViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDCCA541BE256E100F8126D /* Debug */,
+				3FDCCA551BE256E100F8126D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FDCCA1D1BE256E000F8126D /* Project object */;
+}
