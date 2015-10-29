@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8B654A1BE1FFF500E035CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B65491BE1FFF500E035CB /* AppDelegate.swift */; };
+		3F8B654C1BE1FFF500E035CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B654B1BE1FFF500E035CB /* ViewController.swift */; };
+		3F8B654F1BE1FFF500E035CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B654D1BE1FFF500E035CB /* Main.storyboard */; };
+		3F8B65511BE1FFF500E035CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B65501BE1FFF500E035CB /* Assets.xcassets */; };
+		3F8B65541BE1FFF500E035CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B65521BE1FFF500E035CB /* LaunchScreen.storyboard */; };
+		3F8B655F1BE1FFF500E035CB /* Range_Pickers_with_UISliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B655E1BE1FFF500E035CB /* Range_Pickers_with_UISliderTests.swift */; };
+		3F8B656A1BE1FFF500E035CB /* Range_Pickers_with_UISliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B65691BE1FFF500E035CB /* Range_Pickers_with_UISliderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F8B655B1BE1FFF500E035CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8B653E1BE1FFF500E035CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8B65451BE1FFF500E035CB;
+			remoteInfo = "Range Pickers with UISlider";
+		};
+		3F8B65661BE1FFF500E035CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8B653E1BE1FFF500E035CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8B65451BE1FFF500E035CB;
+			remoteInfo = "Range Pickers with UISlider";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F8B65461BE1FFF500E035CB /* Range Pickers with UISlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Range Pickers with UISlider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8B65491BE1FFF500E035CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F8B654B1BE1FFF500E035CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F8B654E1BE1FFF500E035CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F8B65501BE1FFF500E035CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8B65531BE1FFF500E035CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F8B65551BE1FFF500E035CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8B655A1BE1FFF500E035CB /* Range Pickers with UISliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Range Pickers with UISliderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8B655E1BE1FFF500E035CB /* Range_Pickers_with_UISliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Range_Pickers_with_UISliderTests.swift; sourceTree = "<group>"; };
+		3F8B65601BE1FFF500E035CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8B65651BE1FFF500E035CB /* Range Pickers with UISliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Range Pickers with UISliderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8B65691BE1FFF500E035CB /* Range_Pickers_with_UISliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Range_Pickers_with_UISliderUITests.swift; sourceTree = "<group>"; };
+		3F8B656B1BE1FFF500E035CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8B65431BE1FFF500E035CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B65571BE1FFF500E035CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B65621BE1FFF500E035CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8B653D1BE1FFF500E035CB = {
+			isa = PBXGroup;
+			children = (
+				3F8B65481BE1FFF500E035CB /* Range Pickers with UISlider */,
+				3F8B655D1BE1FFF500E035CB /* Range Pickers with UISliderTests */,
+				3F8B65681BE1FFF500E035CB /* Range Pickers with UISliderUITests */,
+				3F8B65471BE1FFF500E035CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F8B65471BE1FFF500E035CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B65461BE1FFF500E035CB /* Range Pickers with UISlider.app */,
+				3F8B655A1BE1FFF500E035CB /* Range Pickers with UISliderTests.xctest */,
+				3F8B65651BE1FFF500E035CB /* Range Pickers with UISliderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8B65481BE1FFF500E035CB /* Range Pickers with UISlider */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B65491BE1FFF500E035CB /* AppDelegate.swift */,
+				3F8B654B1BE1FFF500E035CB /* ViewController.swift */,
+				3F8B654D1BE1FFF500E035CB /* Main.storyboard */,
+				3F8B65501BE1FFF500E035CB /* Assets.xcassets */,
+				3F8B65521BE1FFF500E035CB /* LaunchScreen.storyboard */,
+				3F8B65551BE1FFF500E035CB /* Info.plist */,
+			);
+			path = "Range Pickers with UISlider";
+			sourceTree = "<group>";
+		};
+		3F8B655D1BE1FFF500E035CB /* Range Pickers with UISliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B655E1BE1FFF500E035CB /* Range_Pickers_with_UISliderTests.swift */,
+				3F8B65601BE1FFF500E035CB /* Info.plist */,
+			);
+			path = "Range Pickers with UISliderTests";
+			sourceTree = "<group>";
+		};
+		3F8B65681BE1FFF500E035CB /* Range Pickers with UISliderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B65691BE1FFF500E035CB /* Range_Pickers_with_UISliderUITests.swift */,
+				3F8B656B1BE1FFF500E035CB /* Info.plist */,
+			);
+			path = "Range Pickers with UISliderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F8B65451BE1FFF500E035CB /* Range Pickers with UISlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8B656E1BE1FFF500E035CB /* Build configuration list for PBXNativeTarget "Range Pickers with UISlider" */;
+			buildPhases = (
+				3F8B65421BE1FFF500E035CB /* Sources */,
+				3F8B65431BE1FFF500E035CB /* Frameworks */,
+				3F8B65441BE1FFF500E035CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Range Pickers with UISlider";
+			productName = "Range Pickers with UISlider";
+			productReference = 3F8B65461BE1FFF500E035CB /* Range Pickers with UISlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F8B65591BE1FFF500E035CB /* Range Pickers with UISliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8B65711BE1FFF500E035CB /* Build configuration list for PBXNativeTarget "Range Pickers with UISliderTests" */;
+			buildPhases = (
+				3F8B65561BE1FFF500E035CB /* Sources */,
+				3F8B65571BE1FFF500E035CB /* Frameworks */,
+				3F8B65581BE1FFF500E035CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8B655C1BE1FFF500E035CB /* PBXTargetDependency */,
+			);
+			name = "Range Pickers with UISliderTests";
+			productName = "Range Pickers with UISliderTests";
+			productReference = 3F8B655A1BE1FFF500E035CB /* Range Pickers with UISliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F8B65641BE1FFF500E035CB /* Range Pickers with UISliderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8B65741BE1FFF500E035CB /* Build configuration list for PBXNativeTarget "Range Pickers with UISliderUITests" */;
+			buildPhases = (
+				3F8B65611BE1FFF500E035CB /* Sources */,
+				3F8B65621BE1FFF500E035CB /* Frameworks */,
+				3F8B65631BE1FFF500E035CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8B65671BE1FFF500E035CB /* PBXTargetDependency */,
+			);
+			name = "Range Pickers with UISliderUITests";
+			productName = "Range Pickers with UISliderUITests";
+			productReference = 3F8B65651BE1FFF500E035CB /* Range Pickers with UISliderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8B653E1BE1FFF500E035CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Guy Azran";
+				TargetAttributes = {
+					3F8B65451BE1FFF500E035CB = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+					};
+					3F8B65591BE1FFF500E035CB = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3F8B65451BE1FFF500E035CB;
+					};
+					3F8B65641BE1FFF500E035CB = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3F8B65451BE1FFF500E035CB;
+					};
+				};
+			};
+			buildConfigurationList = 3F8B65411BE1FFF500E035CB /* Build configuration list for PBXProject "Range Pickers with UISlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F8B653D1BE1FFF500E035CB;
+			productRefGroup = 3F8B65471BE1FFF500E035CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8B65451BE1FFF500E035CB /* Range Pickers with UISlider */,
+				3F8B65591BE1FFF500E035CB /* Range Pickers with UISliderTests */,
+				3F8B65641BE1FFF500E035CB /* Range Pickers with UISliderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8B65441BE1FFF500E035CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8B65541BE1FFF500E035CB /* LaunchScreen.storyboard in Resources */,
+				3F8B65511BE1FFF500E035CB /* Assets.xcassets in Resources */,
+				3F8B654F1BE1FFF500E035CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B65581BE1FFF500E035CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B65631BE1FFF500E035CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F8B65421BE1FFF500E035CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8B654C1BE1FFF500E035CB /* ViewController.swift in Sources */,
+				3F8B654A1BE1FFF500E035CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B65561BE1FFF500E035CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8B655F1BE1FFF500E035CB /* Range_Pickers_with_UISliderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B65611BE1FFF500E035CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8B656A1BE1FFF500E035CB /* Range_Pickers_with_UISliderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8B655C1BE1FFF500E035CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8B65451BE1FFF500E035CB /* Range Pickers with UISlider */;
+			targetProxy = 3F8B655B1BE1FFF500E035CB /* PBXContainerItemProxy */;
+		};
+		3F8B65671BE1FFF500E035CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8B65451BE1FFF500E035CB /* Range Pickers with UISlider */;
+			targetProxy = 3F8B65661BE1FFF500E035CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F8B654D1BE1FFF500E035CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8B654E1BE1FFF500E035CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F8B65521BE1FFF500E035CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8B65531BE1FFF500E035CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F8B656C1BE1FFF500E035CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F8B656D1BE1FFF500E035CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F8B656F1BE1FFF500E035CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Range Pickers with UISlider/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Range-Pickers-with-UISlider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F8B65701BE1FFF500E035CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Range Pickers with UISlider/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Range-Pickers-with-UISlider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F8B65721BE1FFF500E035CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Range Pickers with UISliderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Range-Pickers-with-UISliderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Range Pickers with UISlider.app/Range Pickers with UISlider";
+			};
+			name = Debug;
+		};
+		3F8B65731BE1FFF500E035CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Range Pickers with UISliderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Range-Pickers-with-UISliderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Range Pickers with UISlider.app/Range Pickers with UISlider";
+			};
+			name = Release;
+		};
+		3F8B65751BE1FFF500E035CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Range Pickers with UISliderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Range-Pickers-with-UISliderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Range Pickers with UISlider";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F8B65761BE1FFF500E035CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Range Pickers with UISliderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Range-Pickers-with-UISliderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Range Pickers with UISlider";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8B65411BE1FFF500E035CB /* Build configuration list for PBXProject "Range Pickers with UISlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8B656C1BE1FFF500E035CB /* Debug */,
+				3F8B656D1BE1FFF500E035CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8B656E1BE1FFF500E035CB /* Build configuration list for PBXNativeTarget "Range Pickers with UISlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8B656F1BE1FFF500E035CB /* Debug */,
+				3F8B65701BE1FFF500E035CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F8B65711BE1FFF500E035CB /* Build configuration list for PBXNativeTarget "Range Pickers with UISliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8B65721BE1FFF500E035CB /* Debug */,
+				3F8B65731BE1FFF500E035CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F8B65741BE1FFF500E035CB /* Build configuration list for PBXNativeTarget "Range Pickers with UISliderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8B65751BE1FFF500E035CB /* Debug */,
+				3F8B65761BE1FFF500E035CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F8B653E1BE1FFF500E035CB /* Project object */;
+}
