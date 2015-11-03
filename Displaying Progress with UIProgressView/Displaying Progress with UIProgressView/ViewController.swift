@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     var progressView: UIProgressView!;
     
+    var btnAdd: UIButton!;
+    var btnReduce: UIButton!;
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,7 +25,35 @@ class ViewController: UIViewController {
         progressView.tintColor = UIColor.blueColor();
         view.addSubview(progressView);
         
+        btnAdd = UIButton(type: .System);
+        btnAdd.frame = CGRect(x: 0, y: 0, width: 35, height: 20);
+        btnAdd.center = view.center;
+        btnAdd.frame.origin.x = progressView.frame.maxX;
+        btnAdd.setTitle("+", forState: .Normal);
+        view.addSubview(btnAdd);
         
+        btnReduce = UIButton(type: .System);
+        btnReduce.frame = CGRect(x: 0, y: 0, width: 35, height: 20);
+        btnReduce.center = view.center;
+        btnReduce.frame.origin.x = progressView.frame.origin.x;
+        btnReduce.frame.origin.x -= btnReduce.frame.width;
+        btnReduce.setTitle("-", forState: .Normal);
+        view.addSubview(btnReduce);
+        
+        btnAdd.addTarget(self, action: "btnAddProgress:", forControlEvents: UIControlEvents.TouchUpInside);
+        btnReduce.addTarget(self, action: "btnReduceProgress:", forControlEvents: .TouchUpInside);
+    }
+    
+    func btnAddProgress(sender: UIButton){
+        if progressView.progress != 1{
+            progressView.progress += 0.1;
+        }
+    }
+    
+    func btnReduceProgress(sender: UIButton){
+        if progressView.progress != 0{
+            progressView.progress -= 0.1;
+        }
     }
 
     override func didReceiveMemoryWarning() {
