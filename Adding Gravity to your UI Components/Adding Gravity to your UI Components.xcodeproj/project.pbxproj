@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FBF350C1BE79E5000D2F3AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF350B1BE79E5000D2F3AB /* AppDelegate.swift */; };
+		3FBF350E1BE79E5000D2F3AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF350D1BE79E5000D2F3AB /* ViewController.swift */; };
+		3FBF35111BE79E5000D2F3AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBF350F1BE79E5000D2F3AB /* Main.storyboard */; };
+		3FBF35131BE79E5000D2F3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBF35121BE79E5000D2F3AB /* Assets.xcassets */; };
+		3FBF35161BE79E5000D2F3AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBF35141BE79E5000D2F3AB /* LaunchScreen.storyboard */; };
+		3FBF35211BE79E5000D2F3AB /* Adding_Gravity_to_your_UI_ComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF35201BE79E5000D2F3AB /* Adding_Gravity_to_your_UI_ComponentsTests.swift */; };
+		3FBF352C1BE79E5000D2F3AB /* Adding_Gravity_to_your_UI_ComponentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF352B1BE79E5000D2F3AB /* Adding_Gravity_to_your_UI_ComponentsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FBF351D1BE79E5000D2F3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FBF35001BE79E5000D2F3AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBF35071BE79E5000D2F3AB;
+			remoteInfo = "Adding Gravity to your UI Components";
+		};
+		3FBF35281BE79E5000D2F3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FBF35001BE79E5000D2F3AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBF35071BE79E5000D2F3AB;
+			remoteInfo = "Adding Gravity to your UI Components";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FBF35081BE79E5000D2F3AB /* Adding Gravity to your UI Components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adding Gravity to your UI Components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBF350B1BE79E5000D2F3AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FBF350D1BE79E5000D2F3AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FBF35101BE79E5000D2F3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FBF35121BE79E5000D2F3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FBF35151BE79E5000D2F3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FBF35171BE79E5000D2F3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBF351C1BE79E5000D2F3AB /* Adding Gravity to your UI ComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adding Gravity to your UI ComponentsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBF35201BE79E5000D2F3AB /* Adding_Gravity_to_your_UI_ComponentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adding_Gravity_to_your_UI_ComponentsTests.swift; sourceTree = "<group>"; };
+		3FBF35221BE79E5000D2F3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBF35271BE79E5000D2F3AB /* Adding Gravity to your UI ComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adding Gravity to your UI ComponentsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBF352B1BE79E5000D2F3AB /* Adding_Gravity_to_your_UI_ComponentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adding_Gravity_to_your_UI_ComponentsUITests.swift; sourceTree = "<group>"; };
+		3FBF352D1BE79E5000D2F3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FBF35051BE79E5000D2F3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBF35191BE79E5000D2F3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBF35241BE79E5000D2F3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FBF34FF1BE79E5000D2F3AB = {
+			isa = PBXGroup;
+			children = (
+				3FBF350A1BE79E5000D2F3AB /* Adding Gravity to your UI Components */,
+				3FBF351F1BE79E5000D2F3AB /* Adding Gravity to your UI ComponentsTests */,
+				3FBF352A1BE79E5000D2F3AB /* Adding Gravity to your UI ComponentsUITests */,
+				3FBF35091BE79E5000D2F3AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FBF35091BE79E5000D2F3AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF35081BE79E5000D2F3AB /* Adding Gravity to your UI Components.app */,
+				3FBF351C1BE79E5000D2F3AB /* Adding Gravity to your UI ComponentsTests.xctest */,
+				3FBF35271BE79E5000D2F3AB /* Adding Gravity to your UI ComponentsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FBF350A1BE79E5000D2F3AB /* Adding Gravity to your UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF350B1BE79E5000D2F3AB /* AppDelegate.swift */,
+				3FBF350D1BE79E5000D2F3AB /* ViewController.swift */,
+				3FBF350F1BE79E5000D2F3AB /* Main.storyboard */,
+				3FBF35121BE79E5000D2F3AB /* Assets.xcassets */,
+				3FBF35141BE79E5000D2F3AB /* LaunchScreen.storyboard */,
+				3FBF35171BE79E5000D2F3AB /* Info.plist */,
+			);
+			path = "Adding Gravity to your UI Components";
+			sourceTree = "<group>";
+		};
+		3FBF351F1BE79E5000D2F3AB /* Adding Gravity to your UI ComponentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF35201BE79E5000D2F3AB /* Adding_Gravity_to_your_UI_ComponentsTests.swift */,
+				3FBF35221BE79E5000D2F3AB /* Info.plist */,
+			);
+			path = "Adding Gravity to your UI ComponentsTests";
+			sourceTree = "<group>";
+		};
+		3FBF352A1BE79E5000D2F3AB /* Adding Gravity to your UI ComponentsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF352B1BE79E5000D2F3AB /* Adding_Gravity_to_your_UI_ComponentsUITests.swift */,
+				3FBF352D1BE79E5000D2F3AB /* Info.plist */,
+			);
+			path = "Adding Gravity to your UI ComponentsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FBF35071BE79E5000D2F3AB /* Adding Gravity to your UI Components */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBF35301BE79E5000D2F3AB /* Build configuration list for PBXNativeTarget "Adding Gravity to your UI Components" */;
+			buildPhases = (
+				3FBF35041BE79E5000D2F3AB /* Sources */,
+				3FBF35051BE79E5000D2F3AB /* Frameworks */,
+				3FBF35061BE79E5000D2F3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adding Gravity to your UI Components";
+			productName = "Adding Gravity to your UI Components";
+			productReference = 3FBF35081BE79E5000D2F3AB /* Adding Gravity to your UI Components.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FBF351B1BE79E5000D2F3AB /* Adding Gravity to your UI ComponentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBF35331BE79E5000D2F3AB /* Build configuration list for PBXNativeTarget "Adding Gravity to your UI ComponentsTests" */;
+			buildPhases = (
+				3FBF35181BE79E5000D2F3AB /* Sources */,
+				3FBF35191BE79E5000D2F3AB /* Frameworks */,
+				3FBF351A1BE79E5000D2F3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FBF351E1BE79E5000D2F3AB /* PBXTargetDependency */,
+			);
+			name = "Adding Gravity to your UI ComponentsTests";
+			productName = "Adding Gravity to your UI ComponentsTests";
+			productReference = 3FBF351C1BE79E5000D2F3AB /* Adding Gravity to your UI ComponentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FBF35261BE79E5000D2F3AB /* Adding Gravity to your UI ComponentsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBF35361BE79E5000D2F3AB /* Build configuration list for PBXNativeTarget "Adding Gravity to your UI ComponentsUITests" */;
+			buildPhases = (
+				3FBF35231BE79E5000D2F3AB /* Sources */,
+				3FBF35241BE79E5000D2F3AB /* Frameworks */,
+				3FBF35251BE79E5000D2F3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FBF35291BE79E5000D2F3AB /* PBXTargetDependency */,
+			);
+			name = "Adding Gravity to your UI ComponentsUITests";
+			productName = "Adding Gravity to your UI ComponentsUITests";
+			productReference = 3FBF35271BE79E5000D2F3AB /* Adding Gravity to your UI ComponentsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FBF35001BE79E5000D2F3AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Guy Azran";
+				TargetAttributes = {
+					3FBF35071BE79E5000D2F3AB = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+					};
+					3FBF351B1BE79E5000D2F3AB = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3FBF35071BE79E5000D2F3AB;
+					};
+					3FBF35261BE79E5000D2F3AB = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3FBF35071BE79E5000D2F3AB;
+					};
+				};
+			};
+			buildConfigurationList = 3FBF35031BE79E5000D2F3AB /* Build configuration list for PBXProject "Adding Gravity to your UI Components" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FBF34FF1BE79E5000D2F3AB;
+			productRefGroup = 3FBF35091BE79E5000D2F3AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FBF35071BE79E5000D2F3AB /* Adding Gravity to your UI Components */,
+				3FBF351B1BE79E5000D2F3AB /* Adding Gravity to your UI ComponentsTests */,
+				3FBF35261BE79E5000D2F3AB /* Adding Gravity to your UI ComponentsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FBF35061BE79E5000D2F3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBF35161BE79E5000D2F3AB /* LaunchScreen.storyboard in Resources */,
+				3FBF35131BE79E5000D2F3AB /* Assets.xcassets in Resources */,
+				3FBF35111BE79E5000D2F3AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBF351A1BE79E5000D2F3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBF35251BE79E5000D2F3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FBF35041BE79E5000D2F3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBF350E1BE79E5000D2F3AB /* ViewController.swift in Sources */,
+				3FBF350C1BE79E5000D2F3AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBF35181BE79E5000D2F3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBF35211BE79E5000D2F3AB /* Adding_Gravity_to_your_UI_ComponentsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBF35231BE79E5000D2F3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBF352C1BE79E5000D2F3AB /* Adding_Gravity_to_your_UI_ComponentsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FBF351E1BE79E5000D2F3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FBF35071BE79E5000D2F3AB /* Adding Gravity to your UI Components */;
+			targetProxy = 3FBF351D1BE79E5000D2F3AB /* PBXContainerItemProxy */;
+		};
+		3FBF35291BE79E5000D2F3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FBF35071BE79E5000D2F3AB /* Adding Gravity to your UI Components */;
+			targetProxy = 3FBF35281BE79E5000D2F3AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FBF350F1BE79E5000D2F3AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FBF35101BE79E5000D2F3AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FBF35141BE79E5000D2F3AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FBF35151BE79E5000D2F3AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FBF352E1BE79E5000D2F3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FBF352F1BE79E5000D2F3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FBF35311BE79E5000D2F3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Adding Gravity to your UI Components/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Adding-Gravity-to-your-UI-Components";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FBF35321BE79E5000D2F3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Adding Gravity to your UI Components/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Adding-Gravity-to-your-UI-Components";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FBF35341BE79E5000D2F3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Adding Gravity to your UI ComponentsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Adding-Gravity-to-your-UI-ComponentsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adding Gravity to your UI Components.app/Adding Gravity to your UI Components";
+			};
+			name = Debug;
+		};
+		3FBF35351BE79E5000D2F3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Adding Gravity to your UI ComponentsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Adding-Gravity-to-your-UI-ComponentsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adding Gravity to your UI Components.app/Adding Gravity to your UI Components";
+			};
+			name = Release;
+		};
+		3FBF35371BE79E5000D2F3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Adding Gravity to your UI ComponentsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Adding-Gravity-to-your-UI-ComponentsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Adding Gravity to your UI Components";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FBF35381BE79E5000D2F3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Adding Gravity to your UI ComponentsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Adding-Gravity-to-your-UI-ComponentsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Adding Gravity to your UI Components";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FBF35031BE79E5000D2F3AB /* Build configuration list for PBXProject "Adding Gravity to your UI Components" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBF352E1BE79E5000D2F3AB /* Debug */,
+				3FBF352F1BE79E5000D2F3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBF35301BE79E5000D2F3AB /* Build configuration list for PBXNativeTarget "Adding Gravity to your UI Components" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBF35311BE79E5000D2F3AB /* Debug */,
+				3FBF35321BE79E5000D2F3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FBF35331BE79E5000D2F3AB /* Build configuration list for PBXNativeTarget "Adding Gravity to your UI ComponentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBF35341BE79E5000D2F3AB /* Debug */,
+				3FBF35351BE79E5000D2F3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FBF35361BE79E5000D2F3AB /* Build configuration list for PBXNativeTarget "Adding Gravity to your UI ComponentsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBF35371BE79E5000D2F3AB /* Debug */,
+				3FBF35381BE79E5000D2F3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FBF35001BE79E5000D2F3AB /* Project object */;
+}
