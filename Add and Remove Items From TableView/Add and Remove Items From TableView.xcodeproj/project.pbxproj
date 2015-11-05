@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0D8D8A1BEB76620049A85C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D8D891BEB76620049A85C /* AppDelegate.swift */; };
+		3F0D8D8C1BEB76620049A85C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D8D8B1BEB76620049A85C /* ViewController.swift */; };
+		3F0D8D8F1BEB76620049A85C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D8D8D1BEB76620049A85C /* Main.storyboard */; };
+		3F0D8D911BEB76620049A85C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D8D901BEB76620049A85C /* Assets.xcassets */; };
+		3F0D8D941BEB76620049A85C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D8D921BEB76620049A85C /* LaunchScreen.storyboard */; };
+		3F0D8D9F1BEB76620049A85C /* Add_and_Remove_Items_From_TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D8D9E1BEB76620049A85C /* Add_and_Remove_Items_From_TableViewTests.swift */; };
+		3F0D8DAA1BEB76620049A85C /* Add_and_Remove_Items_From_TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D8DA91BEB76620049A85C /* Add_and_Remove_Items_From_TableViewUITests.swift */; };
+		3F0D8DB81BEB77000049A85C /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D8DB71BEB77000049A85C /* Worker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F0D8D9B1BEB76620049A85C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0D8D7E1BEB76620049A85C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0D8D851BEB76620049A85C;
+			remoteInfo = "Add and Remove Items From TableView";
+		};
+		3F0D8DA61BEB76620049A85C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0D8D7E1BEB76620049A85C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0D8D851BEB76620049A85C;
+			remoteInfo = "Add and Remove Items From TableView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F0D8D861BEB76620049A85C /* Add and Remove Items From TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Add and Remove Items From TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0D8D891BEB76620049A85C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F0D8D8B1BEB76620049A85C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F0D8D8E1BEB76620049A85C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F0D8D901BEB76620049A85C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0D8D931BEB76620049A85C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F0D8D951BEB76620049A85C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0D8D9A1BEB76620049A85C /* Add and Remove Items From TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Add and Remove Items From TableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0D8D9E1BEB76620049A85C /* Add_and_Remove_Items_From_TableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_and_Remove_Items_From_TableViewTests.swift; sourceTree = "<group>"; };
+		3F0D8DA01BEB76620049A85C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0D8DA51BEB76620049A85C /* Add and Remove Items From TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Add and Remove Items From TableViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0D8DA91BEB76620049A85C /* Add_and_Remove_Items_From_TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_and_Remove_Items_From_TableViewUITests.swift; sourceTree = "<group>"; };
+		3F0D8DAB1BEB76620049A85C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0D8DB71BEB77000049A85C /* Worker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0D8D831BEB76620049A85C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0D8D971BEB76620049A85C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0D8DA21BEB76620049A85C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0D8D7D1BEB76620049A85C = {
+			isa = PBXGroup;
+			children = (
+				3F0D8D881BEB76620049A85C /* Add and Remove Items From TableView */,
+				3F0D8D9D1BEB76620049A85C /* Add and Remove Items From TableViewTests */,
+				3F0D8DA81BEB76620049A85C /* Add and Remove Items From TableViewUITests */,
+				3F0D8D871BEB76620049A85C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0D8D871BEB76620049A85C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D8D861BEB76620049A85C /* Add and Remove Items From TableView.app */,
+				3F0D8D9A1BEB76620049A85C /* Add and Remove Items From TableViewTests.xctest */,
+				3F0D8DA51BEB76620049A85C /* Add and Remove Items From TableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0D8D881BEB76620049A85C /* Add and Remove Items From TableView */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D8D891BEB76620049A85C /* AppDelegate.swift */,
+				3F0D8D8B1BEB76620049A85C /* ViewController.swift */,
+				3F0D8D8D1BEB76620049A85C /* Main.storyboard */,
+				3F0D8D901BEB76620049A85C /* Assets.xcassets */,
+				3F0D8D921BEB76620049A85C /* LaunchScreen.storyboard */,
+				3F0D8D951BEB76620049A85C /* Info.plist */,
+				3F0D8DB71BEB77000049A85C /* Worker.swift */,
+			);
+			path = "Add and Remove Items From TableView";
+			sourceTree = "<group>";
+		};
+		3F0D8D9D1BEB76620049A85C /* Add and Remove Items From TableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D8D9E1BEB76620049A85C /* Add_and_Remove_Items_From_TableViewTests.swift */,
+				3F0D8DA01BEB76620049A85C /* Info.plist */,
+			);
+			path = "Add and Remove Items From TableViewTests";
+			sourceTree = "<group>";
+		};
+		3F0D8DA81BEB76620049A85C /* Add and Remove Items From TableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D8DA91BEB76620049A85C /* Add_and_Remove_Items_From_TableViewUITests.swift */,
+				3F0D8DAB1BEB76620049A85C /* Info.plist */,
+			);
+			path = "Add and Remove Items From TableViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0D8D851BEB76620049A85C /* Add and Remove Items From TableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0D8DAE1BEB76620049A85C /* Build configuration list for PBXNativeTarget "Add and Remove Items From TableView" */;
+			buildPhases = (
+				3F0D8D821BEB76620049A85C /* Sources */,
+				3F0D8D831BEB76620049A85C /* Frameworks */,
+				3F0D8D841BEB76620049A85C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Add and Remove Items From TableView";
+			productName = "Add and Remove Items From TableView";
+			productReference = 3F0D8D861BEB76620049A85C /* Add and Remove Items From TableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F0D8D991BEB76620049A85C /* Add and Remove Items From TableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0D8DB11BEB76620049A85C /* Build configuration list for PBXNativeTarget "Add and Remove Items From TableViewTests" */;
+			buildPhases = (
+				3F0D8D961BEB76620049A85C /* Sources */,
+				3F0D8D971BEB76620049A85C /* Frameworks */,
+				3F0D8D981BEB76620049A85C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0D8D9C1BEB76620049A85C /* PBXTargetDependency */,
+			);
+			name = "Add and Remove Items From TableViewTests";
+			productName = "Add and Remove Items From TableViewTests";
+			productReference = 3F0D8D9A1BEB76620049A85C /* Add and Remove Items From TableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F0D8DA41BEB76620049A85C /* Add and Remove Items From TableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0D8DB41BEB76620049A85C /* Build configuration list for PBXNativeTarget "Add and Remove Items From TableViewUITests" */;
+			buildPhases = (
+				3F0D8DA11BEB76620049A85C /* Sources */,
+				3F0D8DA21BEB76620049A85C /* Frameworks */,
+				3F0D8DA31BEB76620049A85C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0D8DA71BEB76620049A85C /* PBXTargetDependency */,
+			);
+			name = "Add and Remove Items From TableViewUITests";
+			productName = "Add and Remove Items From TableViewUITests";
+			productReference = 3F0D8DA51BEB76620049A85C /* Add and Remove Items From TableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0D8D7E1BEB76620049A85C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Guy Azran";
+				TargetAttributes = {
+					3F0D8D851BEB76620049A85C = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+					};
+					3F0D8D991BEB76620049A85C = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3F0D8D851BEB76620049A85C;
+					};
+					3F0D8DA41BEB76620049A85C = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3F0D8D851BEB76620049A85C;
+					};
+				};
+			};
+			buildConfigurationList = 3F0D8D811BEB76620049A85C /* Build configuration list for PBXProject "Add and Remove Items From TableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0D8D7D1BEB76620049A85C;
+			productRefGroup = 3F0D8D871BEB76620049A85C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0D8D851BEB76620049A85C /* Add and Remove Items From TableView */,
+				3F0D8D991BEB76620049A85C /* Add and Remove Items From TableViewTests */,
+				3F0D8DA41BEB76620049A85C /* Add and Remove Items From TableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0D8D841BEB76620049A85C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0D8D941BEB76620049A85C /* LaunchScreen.storyboard in Resources */,
+				3F0D8D911BEB76620049A85C /* Assets.xcassets in Resources */,
+				3F0D8D8F1BEB76620049A85C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0D8D981BEB76620049A85C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0D8DA31BEB76620049A85C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0D8D821BEB76620049A85C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0D8D8C1BEB76620049A85C /* ViewController.swift in Sources */,
+				3F0D8DB81BEB77000049A85C /* Worker.swift in Sources */,
+				3F0D8D8A1BEB76620049A85C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0D8D961BEB76620049A85C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0D8D9F1BEB76620049A85C /* Add_and_Remove_Items_From_TableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0D8DA11BEB76620049A85C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0D8DAA1BEB76620049A85C /* Add_and_Remove_Items_From_TableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0D8D9C1BEB76620049A85C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0D8D851BEB76620049A85C /* Add and Remove Items From TableView */;
+			targetProxy = 3F0D8D9B1BEB76620049A85C /* PBXContainerItemProxy */;
+		};
+		3F0D8DA71BEB76620049A85C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0D8D851BEB76620049A85C /* Add and Remove Items From TableView */;
+			targetProxy = 3F0D8DA61BEB76620049A85C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F0D8D8D1BEB76620049A85C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0D8D8E1BEB76620049A85C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0D8D921BEB76620049A85C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0D8D931BEB76620049A85C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0D8DAC1BEB76620049A85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F0D8DAD1BEB76620049A85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0D8DAF1BEB76620049A85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Add and Remove Items From TableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Add-and-Remove-Items-From-TableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F0D8DB01BEB76620049A85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Add and Remove Items From TableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Add-and-Remove-Items-From-TableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F0D8DB21BEB76620049A85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Add and Remove Items From TableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Add-and-Remove-Items-From-TableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Add and Remove Items From TableView.app/Add and Remove Items From TableView";
+			};
+			name = Debug;
+		};
+		3F0D8DB31BEB76620049A85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Add and Remove Items From TableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Add-and-Remove-Items-From-TableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Add and Remove Items From TableView.app/Add and Remove Items From TableView";
+			};
+			name = Release;
+		};
+		3F0D8DB51BEB76620049A85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Add and Remove Items From TableViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Add-and-Remove-Items-From-TableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Add and Remove Items From TableView";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F0D8DB61BEB76620049A85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Add and Remove Items From TableViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Add-and-Remove-Items-From-TableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Add and Remove Items From TableView";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0D8D811BEB76620049A85C /* Build configuration list for PBXProject "Add and Remove Items From TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0D8DAC1BEB76620049A85C /* Debug */,
+				3F0D8DAD1BEB76620049A85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0D8DAE1BEB76620049A85C /* Build configuration list for PBXNativeTarget "Add and Remove Items From TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0D8DAF1BEB76620049A85C /* Debug */,
+				3F0D8DB01BEB76620049A85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F0D8DB11BEB76620049A85C /* Build configuration list for PBXNativeTarget "Add and Remove Items From TableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0D8DB21BEB76620049A85C /* Debug */,
+				3F0D8DB31BEB76620049A85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F0D8DB41BEB76620049A85C /* Build configuration list for PBXNativeTarget "Add and Remove Items From TableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0D8DB51BEB76620049A85C /* Debug */,
+				3F0D8DB61BEB76620049A85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0D8D7E1BEB76620049A85C /* Project object */;
+}
