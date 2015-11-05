@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FBC8E751BEB96E400A42540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC8E741BEB96E400A42540 /* AppDelegate.swift */; };
+		3FBC8E771BEB96E400A42540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC8E761BEB96E400A42540 /* ViewController.swift */; };
+		3FBC8E7A1BEB96E400A42540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC8E781BEB96E400A42540 /* Main.storyboard */; };
+		3FBC8E7C1BEB96E400A42540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC8E7B1BEB96E400A42540 /* Assets.xcassets */; };
+		3FBC8E7F1BEB96E400A42540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC8E7D1BEB96E400A42540 /* LaunchScreen.storyboard */; };
+		3FBC8E8A1BEB96E500A42540 /* TableView_with_Refresh_ButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC8E891BEB96E500A42540 /* TableView_with_Refresh_ButtonTests.swift */; };
+		3FBC8E951BEB96E500A42540 /* TableView_with_Refresh_ButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC8E941BEB96E500A42540 /* TableView_with_Refresh_ButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FBC8E861BEB96E500A42540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FBC8E691BEB96E400A42540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBC8E701BEB96E400A42540;
+			remoteInfo = "TableView with Refresh Button";
+		};
+		3FBC8E911BEB96E500A42540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FBC8E691BEB96E400A42540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBC8E701BEB96E400A42540;
+			remoteInfo = "TableView with Refresh Button";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FBC8E711BEB96E400A42540 /* TableView with Refresh Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView with Refresh Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBC8E741BEB96E400A42540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FBC8E761BEB96E400A42540 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FBC8E791BEB96E400A42540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FBC8E7B1BEB96E400A42540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FBC8E7E1BEB96E400A42540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FBC8E801BEB96E400A42540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBC8E851BEB96E500A42540 /* TableView with Refresh ButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView with Refresh ButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBC8E891BEB96E500A42540 /* TableView_with_Refresh_ButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_with_Refresh_ButtonTests.swift; sourceTree = "<group>"; };
+		3FBC8E8B1BEB96E500A42540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBC8E901BEB96E500A42540 /* TableView with Refresh ButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView with Refresh ButtonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBC8E941BEB96E500A42540 /* TableView_with_Refresh_ButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_with_Refresh_ButtonUITests.swift; sourceTree = "<group>"; };
+		3FBC8E961BEB96E500A42540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FBC8E6E1BEB96E400A42540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBC8E821BEB96E500A42540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBC8E8D1BEB96E500A42540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FBC8E681BEB96E400A42540 = {
+			isa = PBXGroup;
+			children = (
+				3FBC8E731BEB96E400A42540 /* TableView with Refresh Button */,
+				3FBC8E881BEB96E500A42540 /* TableView with Refresh ButtonTests */,
+				3FBC8E931BEB96E500A42540 /* TableView with Refresh ButtonUITests */,
+				3FBC8E721BEB96E400A42540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FBC8E721BEB96E400A42540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FBC8E711BEB96E400A42540 /* TableView with Refresh Button.app */,
+				3FBC8E851BEB96E500A42540 /* TableView with Refresh ButtonTests.xctest */,
+				3FBC8E901BEB96E500A42540 /* TableView with Refresh ButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FBC8E731BEB96E400A42540 /* TableView with Refresh Button */ = {
+			isa = PBXGroup;
+			children = (
+				3FBC8E741BEB96E400A42540 /* AppDelegate.swift */,
+				3FBC8E761BEB96E400A42540 /* ViewController.swift */,
+				3FBC8E781BEB96E400A42540 /* Main.storyboard */,
+				3FBC8E7B1BEB96E400A42540 /* Assets.xcassets */,
+				3FBC8E7D1BEB96E400A42540 /* LaunchScreen.storyboard */,
+				3FBC8E801BEB96E400A42540 /* Info.plist */,
+			);
+			path = "TableView with Refresh Button";
+			sourceTree = "<group>";
+		};
+		3FBC8E881BEB96E500A42540 /* TableView with Refresh ButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FBC8E891BEB96E500A42540 /* TableView_with_Refresh_ButtonTests.swift */,
+				3FBC8E8B1BEB96E500A42540 /* Info.plist */,
+			);
+			path = "TableView with Refresh ButtonTests";
+			sourceTree = "<group>";
+		};
+		3FBC8E931BEB96E500A42540 /* TableView with Refresh ButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FBC8E941BEB96E500A42540 /* TableView_with_Refresh_ButtonUITests.swift */,
+				3FBC8E961BEB96E500A42540 /* Info.plist */,
+			);
+			path = "TableView with Refresh ButtonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FBC8E701BEB96E400A42540 /* TableView with Refresh Button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBC8E991BEB96E500A42540 /* Build configuration list for PBXNativeTarget "TableView with Refresh Button" */;
+			buildPhases = (
+				3FBC8E6D1BEB96E400A42540 /* Sources */,
+				3FBC8E6E1BEB96E400A42540 /* Frameworks */,
+				3FBC8E6F1BEB96E400A42540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableView with Refresh Button";
+			productName = "TableView with Refresh Button";
+			productReference = 3FBC8E711BEB96E400A42540 /* TableView with Refresh Button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FBC8E841BEB96E500A42540 /* TableView with Refresh ButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBC8E9C1BEB96E500A42540 /* Build configuration list for PBXNativeTarget "TableView with Refresh ButtonTests" */;
+			buildPhases = (
+				3FBC8E811BEB96E500A42540 /* Sources */,
+				3FBC8E821BEB96E500A42540 /* Frameworks */,
+				3FBC8E831BEB96E500A42540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FBC8E871BEB96E500A42540 /* PBXTargetDependency */,
+			);
+			name = "TableView with Refresh ButtonTests";
+			productName = "TableView with Refresh ButtonTests";
+			productReference = 3FBC8E851BEB96E500A42540 /* TableView with Refresh ButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FBC8E8F1BEB96E500A42540 /* TableView with Refresh ButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBC8E9F1BEB96E500A42540 /* Build configuration list for PBXNativeTarget "TableView with Refresh ButtonUITests" */;
+			buildPhases = (
+				3FBC8E8C1BEB96E500A42540 /* Sources */,
+				3FBC8E8D1BEB96E500A42540 /* Frameworks */,
+				3FBC8E8E1BEB96E500A42540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FBC8E921BEB96E500A42540 /* PBXTargetDependency */,
+			);
+			name = "TableView with Refresh ButtonUITests";
+			productName = "TableView with Refresh ButtonUITests";
+			productReference = 3FBC8E901BEB96E500A42540 /* TableView with Refresh ButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FBC8E691BEB96E400A42540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Guy Azran";
+				TargetAttributes = {
+					3FBC8E701BEB96E400A42540 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+					};
+					3FBC8E841BEB96E500A42540 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3FBC8E701BEB96E400A42540;
+					};
+					3FBC8E8F1BEB96E500A42540 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3FBC8E701BEB96E400A42540;
+					};
+				};
+			};
+			buildConfigurationList = 3FBC8E6C1BEB96E400A42540 /* Build configuration list for PBXProject "TableView with Refresh Button" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FBC8E681BEB96E400A42540;
+			productRefGroup = 3FBC8E721BEB96E400A42540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FBC8E701BEB96E400A42540 /* TableView with Refresh Button */,
+				3FBC8E841BEB96E500A42540 /* TableView with Refresh ButtonTests */,
+				3FBC8E8F1BEB96E500A42540 /* TableView with Refresh ButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FBC8E6F1BEB96E400A42540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBC8E7F1BEB96E400A42540 /* LaunchScreen.storyboard in Resources */,
+				3FBC8E7C1BEB96E400A42540 /* Assets.xcassets in Resources */,
+				3FBC8E7A1BEB96E400A42540 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBC8E831BEB96E500A42540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBC8E8E1BEB96E500A42540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FBC8E6D1BEB96E400A42540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBC8E771BEB96E400A42540 /* ViewController.swift in Sources */,
+				3FBC8E751BEB96E400A42540 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBC8E811BEB96E500A42540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBC8E8A1BEB96E500A42540 /* TableView_with_Refresh_ButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBC8E8C1BEB96E500A42540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBC8E951BEB96E500A42540 /* TableView_with_Refresh_ButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FBC8E871BEB96E500A42540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FBC8E701BEB96E400A42540 /* TableView with Refresh Button */;
+			targetProxy = 3FBC8E861BEB96E500A42540 /* PBXContainerItemProxy */;
+		};
+		3FBC8E921BEB96E500A42540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FBC8E701BEB96E400A42540 /* TableView with Refresh Button */;
+			targetProxy = 3FBC8E911BEB96E500A42540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FBC8E781BEB96E400A42540 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FBC8E791BEB96E400A42540 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FBC8E7D1BEB96E400A42540 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FBC8E7E1BEB96E400A42540 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FBC8E971BEB96E500A42540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FBC8E981BEB96E500A42540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FBC8E9A1BEB96E500A42540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableView with Refresh Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TableView-with-Refresh-Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FBC8E9B1BEB96E500A42540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableView with Refresh Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TableView-with-Refresh-Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FBC8E9D1BEB96E500A42540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableView with Refresh ButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TableView-with-Refresh-ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView with Refresh Button.app/TableView with Refresh Button";
+			};
+			name = Debug;
+		};
+		3FBC8E9E1BEB96E500A42540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableView with Refresh ButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TableView-with-Refresh-ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView with Refresh Button.app/TableView with Refresh Button";
+			};
+			name = Release;
+		};
+		3FBC8EA01BEB96E500A42540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableView with Refresh ButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TableView-with-Refresh-ButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableView with Refresh Button";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FBC8EA11BEB96E500A42540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableView with Refresh ButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TableView-with-Refresh-ButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableView with Refresh Button";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FBC8E6C1BEB96E400A42540 /* Build configuration list for PBXProject "TableView with Refresh Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBC8E971BEB96E500A42540 /* Debug */,
+				3FBC8E981BEB96E500A42540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBC8E991BEB96E500A42540 /* Build configuration list for PBXNativeTarget "TableView with Refresh Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBC8E9A1BEB96E500A42540 /* Debug */,
+				3FBC8E9B1BEB96E500A42540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FBC8E9C1BEB96E500A42540 /* Build configuration list for PBXNativeTarget "TableView with Refresh ButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBC8E9D1BEB96E500A42540 /* Debug */,
+				3FBC8E9E1BEB96E500A42540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FBC8E9F1BEB96E500A42540 /* Build configuration list for PBXNativeTarget "TableView with Refresh ButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBC8EA01BEB96E500A42540 /* Debug */,
+				3FBC8EA11BEB96E500A42540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FBC8E691BEB96E400A42540 /* Project object */;
+}
