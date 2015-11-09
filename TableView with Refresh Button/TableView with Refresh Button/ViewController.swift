@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var tableView: UITableView?;
     var allTimes = [NSDate]();
@@ -25,6 +25,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         if let theTableView = tableView{
             theTableView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: identifier);
             theTableView.dataSource = self;
+            theTableView.delegate = self;
             
             //create the refresh control
             refreshControl = UIRefreshControl();
@@ -62,6 +63,20 @@ class ViewController: UIViewController, UITableViewDataSource {
     override func prefersStatusBarHidden() -> Bool {
         return true;
     }
+    
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        print("clicked on \(allTimes[indexPath.row])");
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 
     override func didReceiveMemoryWarning() {
