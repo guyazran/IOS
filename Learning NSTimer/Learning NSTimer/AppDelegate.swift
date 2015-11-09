@@ -12,6 +12,11 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    var backgroundTaskIdentifier: UIBackgroundTaskIdentifier = UIBackgroundTaskInvalid;
+    
+    var counter = 0;
+    var timer:NSTimer!;
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         print("in didFinishLaunching...");
@@ -24,12 +29,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidEnterBackground(application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        timer = NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: "whatToDo:", userInfo: nil, repeats: true);
+        
+        backgroundTaskIdentifier = application.beginBackgroundTaskWithName("task1", expirationHandler: { [weak self]() -> Void in
+            self!.endBackgroundTask();
+        })
+    }
+    
+    func whatToDo(timer: NSTimer){
+        let backgroundTimeRemaining = UIApplication.sharedApplication().backgroundTimeRemaining;
+        
+        print("do something... \(++counter) isMain = \(NSThread.currentThread().isMainThread)");
+        print("time remaining: ", backgroundTimeRemaining);
+    }
+    
+    func endBackgroundTask(){
+        timer.invalidate();
+        timer = nil;
+        
+        UIApplication.sharedApplication().endBackgroundTask(backgroundTaskIdentifier);
+        backgroundTaskIdentifier = UIBackgroundTaskInvalid;
+        print("in endBackgroundTask");
     }
 
     func applicationWillEnterForeground(application: UIApplication) {
-        // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+        if backgroundTaskIdentifier != UIBackgroundTaskInvalid{
+            endBackgroundTask();
+        }
     }
 
     func applicationDidBecomeActive(application: UIApplication) {
