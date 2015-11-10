@@ -14,6 +14,7 @@
 		3F2FF1951BF0A15F00FA3F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FF1931BF0A15F00FA3F90 /* LaunchScreen.storyboard */; };
 		3F2FF1A01BF0A15F00FA3F90 /* Bouncing_Ball_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FF19F1BF0A15F00FA3F90 /* Bouncing_Ball_ExerciseTests.swift */; };
 		3F2FF1AB1BF0A15F00FA3F90 /* Bouncing_Ball_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FF1AA1BF0A15F00FA3F90 /* Bouncing_Ball_ExerciseUITests.swift */; };
+		3FA9559A1BF1F41B0012E1E6 /* Bouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA955991BF1F41B0012E1E6 /* Bouncer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3F2FF1A61BF0A15F00FA3F90 /* Bouncing Ball ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bouncing Ball ExerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2FF1AA1BF0A15F00FA3F90 /* Bouncing_Ball_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bouncing_Ball_ExerciseUITests.swift; sourceTree = "<group>"; };
 		3F2FF1AC1BF0A15F00FA3F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA955991BF1F41B0012E1E6 /* Bouncer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bouncer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3F2FF1911BF0A15F00FA3F90 /* Assets.xcassets */,
 				3F2FF1931BF0A15F00FA3F90 /* LaunchScreen.storyboard */,
 				3F2FF1961BF0A15F00FA3F90 /* Info.plist */,
+				3FA955991BF1F41B0012E1E6 /* Bouncer.swift */,
 			);
 			path = "Bouncing Ball Exercise";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F2FF18D1BF0A15F00FA3F90 /* ViewController.swift in Sources */,
+				3FA9559A1BF1F41B0012E1E6 /* Bouncer.swift in Sources */,
 				3F2FF18B1BF0A15F00FA3F90 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +489,7 @@
 				3F2FF1B11BF0A15F00FA3F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F2FF1B21BF0A15F00FA3F90 /* Build configuration list for PBXNativeTarget "Bouncing Ball ExerciseTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				3F2FF1B41BF0A15F00FA3F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F2FF1B51BF0A15F00FA3F90 /* Build configuration list for PBXNativeTarget "Bouncing Ball ExerciseUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				3F2FF1B71BF0A15F00FA3F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
