@@ -14,6 +14,8 @@ class ViewController: UIViewController, LocationDelegate, MKMapViewDelegate {
     var mapView: MKMapView!;
     var myAnnotation: MyAnnotation!;
     
+    var counter:Int = 0;
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -34,7 +36,11 @@ class ViewController: UIViewController, LocationDelegate, MKMapViewDelegate {
     
     func addPinTopMapView(latitude: Double, longitude: Double){
         let location = CLLocationCoordinate2D(latitude: latitude, longitude: longitude);
-        myAnnotation = MyAnnotation(coordinate: location, title: "My Title", subtitle: "My Subtitle");
+        if myAnnotation == nil{
+            myAnnotation = MyAnnotation(coordinate: location, title: "My Title", subtitle: "My Subtitle");
+        } else{
+            myAnnotation.coordinate = location;
+        }
         mapView.addAnnotation(myAnnotation);
         setCenterOfMapToLocation(location);
     }
@@ -52,7 +58,26 @@ class ViewController: UIViewController, LocationDelegate, MKMapViewDelegate {
         
         print("location changed \(latitude), \(longitude)");
     }
-
-
+    
+    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+        if annotation is MyAnnotation == false{
+            return nil;
+        }
+    
+        let senderAnnotation = annotation as! MyAnnotation;
+        
+        let pinReusableIdentifier = "\(++counter)";
+        var annotationView = mapView.dequeueReusableAnnotationViewWithIdentifier(pinReusableIdentifier) as? MKPinAnnotationView;
+        
+        if annotationView == nil{
+            annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: pinReusableIdentifier);
+            annotationView!.canShowCallout = true;
+            annotationView!.pinTintColor = senderAnnotation.pinColor;
+        } else{
+            annotationView!.annotation = annotation;
+        }
+        
+        return annotationView;
+    }
 }
 
