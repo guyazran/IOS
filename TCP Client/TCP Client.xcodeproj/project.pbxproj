@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F026C7F1C070AF700925FDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026C7E1C070AF700925FDF /* AppDelegate.swift */; };
+		3F026C811C070AF700925FDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026C801C070AF700925FDF /* ViewController.swift */; };
+		3F026C841C070AF700925FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F026C821C070AF700925FDF /* Main.storyboard */; };
+		3F026C861C070AF700925FDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F026C851C070AF700925FDF /* Assets.xcassets */; };
+		3F026C891C070AF700925FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F026C871C070AF700925FDF /* LaunchScreen.storyboard */; };
+		3F026C941C070AF700925FDF /* TCP_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026C931C070AF700925FDF /* TCP_ClientTests.swift */; };
+		3F026C9F1C070AF700925FDF /* TCP_ClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026C9E1C070AF700925FDF /* TCP_ClientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F026C901C070AF700925FDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F026C731C070AF700925FDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F026C7A1C070AF700925FDF;
+			remoteInfo = "TCP Client";
+		};
+		3F026C9B1C070AF700925FDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F026C731C070AF700925FDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F026C7A1C070AF700925FDF;
+			remoteInfo = "TCP Client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F026C7B1C070AF700925FDF /* TCP Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCP Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F026C7E1C070AF700925FDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F026C801C070AF700925FDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F026C831C070AF700925FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F026C851C070AF700925FDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F026C881C070AF700925FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F026C8A1C070AF700925FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F026C8F1C070AF700925FDF /* TCP ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCP ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F026C931C070AF700925FDF /* TCP_ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCP_ClientTests.swift; sourceTree = "<group>"; };
+		3F026C951C070AF700925FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F026C9A1C070AF700925FDF /* TCP ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCP ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F026C9E1C070AF700925FDF /* TCP_ClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCP_ClientUITests.swift; sourceTree = "<group>"; };
+		3F026CA01C070AF700925FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F026C781C070AF700925FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F026C8C1C070AF700925FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F026C971C070AF700925FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F026C721C070AF700925FDF = {
+			isa = PBXGroup;
+			children = (
+				3F026C7D1C070AF700925FDF /* TCP Client */,
+				3F026C921C070AF700925FDF /* TCP ClientTests */,
+				3F026C9D1C070AF700925FDF /* TCP ClientUITests */,
+				3F026C7C1C070AF700925FDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F026C7C1C070AF700925FDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F026C7B1C070AF700925FDF /* TCP Client.app */,
+				3F026C8F1C070AF700925FDF /* TCP ClientTests.xctest */,
+				3F026C9A1C070AF700925FDF /* TCP ClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F026C7D1C070AF700925FDF /* TCP Client */ = {
+			isa = PBXGroup;
+			children = (
+				3F026C7E1C070AF700925FDF /* AppDelegate.swift */,
+				3F026C801C070AF700925FDF /* ViewController.swift */,
+				3F026C821C070AF700925FDF /* Main.storyboard */,
+				3F026C851C070AF700925FDF /* Assets.xcassets */,
+				3F026C871C070AF700925FDF /* LaunchScreen.storyboard */,
+				3F026C8A1C070AF700925FDF /* Info.plist */,
+			);
+			path = "TCP Client";
+			sourceTree = "<group>";
+		};
+		3F026C921C070AF700925FDF /* TCP ClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F026C931C070AF700925FDF /* TCP_ClientTests.swift */,
+				3F026C951C070AF700925FDF /* Info.plist */,
+			);
+			path = "TCP ClientTests";
+			sourceTree = "<group>";
+		};
+		3F026C9D1C070AF700925FDF /* TCP ClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F026C9E1C070AF700925FDF /* TCP_ClientUITests.swift */,
+				3F026CA01C070AF700925FDF /* Info.plist */,
+			);
+			path = "TCP ClientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F026C7A1C070AF700925FDF /* TCP Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F026CA31C070AF700925FDF /* Build configuration list for PBXNativeTarget "TCP Client" */;
+			buildPhases = (
+				3F026C771C070AF700925FDF /* Sources */,
+				3F026C781C070AF700925FDF /* Frameworks */,
+				3F026C791C070AF700925FDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TCP Client";
+			productName = "TCP Client";
+			productReference = 3F026C7B1C070AF700925FDF /* TCP Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F026C8E1C070AF700925FDF /* TCP ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F026CA61C070AF700925FDF /* Build configuration list for PBXNativeTarget "TCP ClientTests" */;
+			buildPhases = (
+				3F026C8B1C070AF700925FDF /* Sources */,
+				3F026C8C1C070AF700925FDF /* Frameworks */,
+				3F026C8D1C070AF700925FDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F026C911C070AF700925FDF /* PBXTargetDependency */,
+			);
+			name = "TCP ClientTests";
+			productName = "TCP ClientTests";
+			productReference = 3F026C8F1C070AF700925FDF /* TCP ClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F026C991C070AF700925FDF /* TCP ClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F026CA91C070AF700925FDF /* Build configuration list for PBXNativeTarget "TCP ClientUITests" */;
+			buildPhases = (
+				3F026C961C070AF700925FDF /* Sources */,
+				3F026C971C070AF700925FDF /* Frameworks */,
+				3F026C981C070AF700925FDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F026C9C1C070AF700925FDF /* PBXTargetDependency */,
+			);
+			name = "TCP ClientUITests";
+			productName = "TCP ClientUITests";
+			productReference = 3F026C9A1C070AF700925FDF /* TCP ClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F026C731C070AF700925FDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Guy Azran";
+				TargetAttributes = {
+					3F026C7A1C070AF700925FDF = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G66W58TVAF;
+					};
+					3F026C8E1C070AF700925FDF = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3F026C7A1C070AF700925FDF;
+					};
+					3F026C991C070AF700925FDF = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3F026C7A1C070AF700925FDF;
+					};
+				};
+			};
+			buildConfigurationList = 3F026C761C070AF700925FDF /* Build configuration list for PBXProject "TCP Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F026C721C070AF700925FDF;
+			productRefGroup = 3F026C7C1C070AF700925FDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F026C7A1C070AF700925FDF /* TCP Client */,
+				3F026C8E1C070AF700925FDF /* TCP ClientTests */,
+				3F026C991C070AF700925FDF /* TCP ClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F026C791C070AF700925FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F026C891C070AF700925FDF /* LaunchScreen.storyboard in Resources */,
+				3F026C861C070AF700925FDF /* Assets.xcassets in Resources */,
+				3F026C841C070AF700925FDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F026C8D1C070AF700925FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F026C981C070AF700925FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F026C771C070AF700925FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F026C811C070AF700925FDF /* ViewController.swift in Sources */,
+				3F026C7F1C070AF700925FDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F026C8B1C070AF700925FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F026C941C070AF700925FDF /* TCP_ClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F026C961C070AF700925FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F026C9F1C070AF700925FDF /* TCP_ClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F026C911C070AF700925FDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F026C7A1C070AF700925FDF /* TCP Client */;
+			targetProxy = 3F026C901C070AF700925FDF /* PBXContainerItemProxy */;
+		};
+		3F026C9C1C070AF700925FDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F026C7A1C070AF700925FDF /* TCP Client */;
+			targetProxy = 3F026C9B1C070AF700925FDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F026C821C070AF700925FDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F026C831C070AF700925FDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F026C871C070AF700925FDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F026C881C070AF700925FDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F026CA11C070AF700925FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F026CA21C070AF700925FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F026CA41C070AF700925FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TCP Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TCP-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F026CA51C070AF700925FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TCP Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TCP-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F026CA71C070AF700925FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TCP ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TCP-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCP Client.app/TCP Client";
+			};
+			name = Debug;
+		};
+		3F026CA81C070AF700925FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TCP ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TCP-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCP Client.app/TCP Client";
+			};
+			name = Release;
+		};
+		3F026CAA1C070AF700925FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TCP ClientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TCP-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TCP Client";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F026CAB1C070AF700925FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TCP ClientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TCP-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TCP Client";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F026C761C070AF700925FDF /* Build configuration list for PBXProject "TCP Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F026CA11C070AF700925FDF /* Debug */,
+				3F026CA21C070AF700925FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F026CA31C070AF700925FDF /* Build configuration list for PBXNativeTarget "TCP Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F026CA41C070AF700925FDF /* Debug */,
+				3F026CA51C070AF700925FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F026CA61C070AF700925FDF /* Build configuration list for PBXNativeTarget "TCP ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F026CA71C070AF700925FDF /* Debug */,
+				3F026CA81C070AF700925FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F026CA91C070AF700925FDF /* Build configuration list for PBXNativeTarget "TCP ClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F026CAA1C070AF700925FDF /* Debug */,
+				3F026CAB1C070AF700925FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F026C731C070AF700925FDF /* Project object */;
+}
