@@ -12,12 +12,12 @@ class ViewController: UIViewController, NSURLSessionDelegate, NSURLSessionDataDe
     
     var session: NSURLSession!;
     let configuration = NSURLSessionConfiguration.defaultSessionConfiguration();
-    let url = NSURL(string: "http://localhost:8080/MainServlet");
+    let url = NSURL(string: "http://10.0.0.82:8080/MainServlet");
     var request: NSMutableURLRequest!;
     
     var txtMessage: UITextField!;
     var btnSend: UIButton!;
-    var lstMessages: UITableView!;
+    var lstMessages: UITableView!;  
     
     var messages = [Message]();
     
@@ -194,10 +194,14 @@ class ViewController: UIViewController, NSURLSessionDelegate, NSURLSessionDataDe
                                 let msg = messages[i] as! [NSString : NSString];
                                 let newMessage = Message(sender: msg["sender"]! as String, content: msg["content"]! as String);
                                 self.messages.append(newMessage);
+                            }
+                            
+                            if messages.count > 0{
                                 dispatch_async(dispatch_get_main_queue(), { [weak self]() -> Void in
                                     self!.lstMessages.reloadData();
-                                });
+                                    });
                             }
+                            
                             print("checked for messages")
                             checkForMessages();
                         }
