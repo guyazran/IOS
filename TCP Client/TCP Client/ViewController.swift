@@ -8,6 +8,23 @@
 
 import UIKit
 
+extension Float{
+    mutating func byteSwapped() ->Float{
+        var bytes = ViewController.toByteArray(self)
+        
+        bytes = bytes.reverse();
+        
+        for var i = bytes.count - 1; i >= 0; i-- {
+            bytes.append(bytes[i]);
+        }
+        
+        var f:Float = 0.0;
+        
+        memccpy(&f, bytes, 0, 4);
+        return f;
+    }
+}
+
 class ViewController: UIViewController, NSStreamDelegate {
 
     var inputStream: NSInputStream?;
@@ -105,7 +122,7 @@ class ViewController: UIViewController, NSStreamDelegate {
                     
                     //example how to write primitive variables
                     let x:Int64 = 1234567891234567899;
-                    let bytesOfInt = toByteArray(x.byteSwapped);
+                    let bytesOfInt = ViewController.toByteArray(x.byteSwapped);
                     data.appendBytes(bytesOfInt, length: bytesOfInt.count);
                     
                     /*
@@ -133,7 +150,7 @@ class ViewController: UIViewController, NSStreamDelegate {
         }
     }
     
-    func toByteArray<T>(var value: T) -> [UInt8]{
+    static func toByteArray<T>(var value: T) -> [UInt8]{
         return withUnsafePointer(&value) {
             Array(UnsafeBufferPointer(start: UnsafePointer<UInt8>($0), count: sizeof(T)));
         };
@@ -159,6 +176,19 @@ class ViewController: UIViewController, NSStreamDelegate {
         return result;
     }
     
+    static func bytesToFloat32(inout bytes: [UInt8], offset: Int, length: Int) -> Float32{
+        var reverseBytes = [UInt8]();
+        for var i = length - 1; i >= 0; i-- {
+            reverseBytes.append(bytes[offset + i]);
+        }
+        
+        var f: Float32 = 0.0;
+        
+        memccpy(&f, reverseBytes, 0, 4);
+        
+        return f;
+    }
+    
     static func bytesToString(inout bytes: [UInt8], offset: Int, length: Int) -> NSString?{
         var temp = [UInt8]();
         for i in 0..<length{
@@ -166,8 +196,6 @@ class ViewController: UIViewController, NSStreamDelegate {
         }
         return NSString(bytes: temp, length: temp.count, encoding: NSUTF8StringEncoding);
     }
-    
-    
     
     deinit{
         disconnect();
