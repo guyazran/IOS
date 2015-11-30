@@ -70,8 +70,8 @@ class ViewController: UIViewController, NSStreamDelegate {
                 if actuallyRead > 0{
                     /*
                     //example how to read primitive values
-                    let x = bytesToUInt64(buffer, offset: 0, length: 8);
-                    let y = bytesToUInt32(buffer, offset: 8, length: 4)
+                    let x = bytesToUInt64(&buffer, offset: 0, length: 8);
+                    let y = bytesToUInt32(&buffer, offset: 8, length: 4)
                     print("x = \(x)");
                     print("y = \(y)");
                     */
@@ -84,13 +84,13 @@ class ViewController: UIViewController, NSStreamDelegate {
                     
                     //turn part of the byte array to string
                     //using NSData
-                    let d = NSData(bytes: &buffer, length: actuallyRead);
+                    let d = NSData(bytes: buffer, length: actuallyRead);
                     let range = NSRange(location: 5, length: actuallyRead - 5);
                     let responseFromServerCut = NSString(data: d.subdataWithRange(range), encoding: NSUTF8StringEncoding);
                     print(responseFromServerCut);
                     
                     //Using an array
-                    print(ViewController.bytesToString(buffer, offset: 5, length: actuallyRead - 5));
+                    print(ViewController.bytesToString(&buffer, offset: 5, length: actuallyRead - 5));
                 }
                 
                 disconnect();
@@ -139,7 +139,7 @@ class ViewController: UIViewController, NSStreamDelegate {
         };
     }
     
-    static func bytesToUInt64(bytes: [UInt8], offset: Int, length: Int) ->Int64{
+    static func bytesToUInt64(inout bytes: [UInt8], offset: Int, length: Int) ->Int64{
         var result:Int64 = 0;
         
         for i in 0..<length{
@@ -149,7 +149,7 @@ class ViewController: UIViewController, NSStreamDelegate {
         return result;
     }
     
-    static func bytesToUInt32(bytes: [UInt8], offset: Int, length: Int) ->Int32{
+    static func bytesToUInt32(inout bytes: [UInt8], offset: Int, length: Int) ->Int32{
         var result:Int32 = 0;
         
         for i in 0..<length{
@@ -159,13 +159,15 @@ class ViewController: UIViewController, NSStreamDelegate {
         return result;
     }
     
-    static func bytesToString(bytes: [UInt8], offset: Int, length: Int) -> NSString?{
+    static func bytesToString(inout bytes: [UInt8], offset: Int, length: Int) -> NSString?{
         var temp = [UInt8]();
         for i in 0..<length{
             temp.append(bytes[offset + i]);
         }
         return NSString(bytes: temp, length: temp.count, encoding: NSUTF8StringEncoding);
     }
+    
+    
     
     deinit{
         disconnect();
