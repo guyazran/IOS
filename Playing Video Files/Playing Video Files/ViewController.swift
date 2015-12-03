@@ -31,7 +31,9 @@ class ViewController: UIViewController, AVPlayerViewControllerDelegate {
         moviePlayer!.delegate = self;
         let url = NSBundle.mainBundle().URLForResource("bla", withExtension: ".mov");
         moviePlayer!.player = AVPlayer(URL: url!);
-        presentViewController(moviePlayer!, animated: true, completion: nil);
+        //presentViewController(moviePlayer!, animated: true, completion: nil);
+        moviePlayer!.view.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: 250);
+        view.addSubview(moviePlayer!.view);
         moviePlayer!.player!.play();
     }
 
