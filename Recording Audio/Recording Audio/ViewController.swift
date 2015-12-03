@@ -82,10 +82,15 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
                     //audio is playing
                 }
                 audioRecorder = nil;
+                btnToggleRecording.enabled = false;
             }catch{
                 print("error playing audio");
             }
         }
+    }
+    
+    func audioPlayerDidFinishPlaying(player: AVAudioPlayer, successfully flag: Bool) {
+        btnToggleRecording.enabled = true;
     }
     
     override func viewDidLoad() {
@@ -123,6 +128,16 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
             sender.setTitle(startRecordingLabel, forState: .Normal);
         }
         isRecording = !isRecording;
+    }
+    
+    func audioPlayerBeginInterruption(player: AVAudioPlayer) {
+        //the audio session has been interrupted (by an incomming phone call for example) and the playing has been stopped
+    }
+    
+    func audioPlayerEndInterruption(player: AVAudioPlayer, withOptions flags: Int) {
+        if flags == AVAudioSessionInterruptionFlags_ShouldResume{
+            player.play();
+        }
     }
     
     override func didReceiveMemoryWarning() {
