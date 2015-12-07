@@ -107,6 +107,7 @@ class ViewController: UIViewController {
         }
         */
         
+        /*
         //how to delete a file or folder
         do{
             let destinationPath = ((NSTemporaryDirectory() as NSString).stringByAppendingPathComponent("images") as NSString).stringByAppendingPathComponent("MyFile.txt");
@@ -115,7 +116,26 @@ class ViewController: UIViewController {
         } catch{
             
         }
+        */
         
+        //saving objects to files
+        let destinationPath = NSTemporaryDirectory() + "person.dat";
+        let p1 = Person(firstName: "Gil", lastName: "Osher Hamelech");
+        NSKeyedArchiver.archiveRootObject(p1, toFile: destinationPath);
+        
+        var p2 = NSKeyedUnarchiver.unarchiveObjectWithFile(destinationPath) as! Person;
+        print("\(p2.firstName) \(p2.lastName)")
+        
+        let dogPath = NSTemporaryDirectory() + "dog.dat";
+        let d1 = Dog(color: "blue", owner: p2);
+        NSKeyedArchiver.archiveRootObject(d1, toFile: dogPath);
+        
+        var d2 = NSKeyedUnarchiver.unarchiveObjectWithFile(dogPath) as! Dog;
+        print(d2.color, d2.owner.firstName, d2.owner.lastName);
+        
+        let arrayPath = NSTemporaryDirectory() + "array.dat";
+        let array: NSArray = ["stam", p1, d1];
+        NSKeyedArchiver.archiveRootObject(array, toFile: arrayPath);
     }
 
     override func didReceiveMemoryWarning() {

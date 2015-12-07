@@ -14,6 +14,8 @@
 		3FF4B59A1C1569680070FC5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF4B5981C1569680070FC5F /* LaunchScreen.storyboard */; };
 		3FF4B5A51C1569680070FC5F /* Files_and_FoldersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4B5A41C1569680070FC5F /* Files_and_FoldersTests.swift */; };
 		3FF4B5B01C1569680070FC5F /* Files_and_FoldersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4B5AF1C1569680070FC5F /* Files_and_FoldersUITests.swift */; };
+		3FF4B5BE1C1582E10070FC5F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4B5BD1C1582E10070FC5F /* Person.swift */; };
+		3FF4B5C01C15891C0070FC5F /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4B5BF1C15891C0070FC5F /* Dog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3FF4B5AB1C1569680070FC5F /* Files and FoldersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Files and FoldersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF4B5AF1C1569680070FC5F /* Files_and_FoldersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Files_and_FoldersUITests.swift; sourceTree = "<group>"; };
 		3FF4B5B11C1569680070FC5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF4B5BD1C1582E10070FC5F /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		3FF4B5BF1C15891C0070FC5F /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3FF4B5961C1569680070FC5F /* Assets.xcassets */,
 				3FF4B5981C1569680070FC5F /* LaunchScreen.storyboard */,
 				3FF4B59B1C1569680070FC5F /* Info.plist */,
+				3FF4B5BD1C1582E10070FC5F /* Person.swift */,
+				3FF4B5BF1C15891C0070FC5F /* Dog.swift */,
 			);
 			path = "Files and Folders";
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF4B5BE1C1582E10070FC5F /* Person.swift in Sources */,
 				3FF4B5921C1569680070FC5F /* ViewController.swift in Sources */,
+				3FF4B5C01C15891C0070FC5F /* Dog.swift in Sources */,
 				3FF4B5901C1569680070FC5F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
