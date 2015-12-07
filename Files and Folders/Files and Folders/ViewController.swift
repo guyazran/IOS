@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         }
         */
         
+        /*
         //get path to temporary directory. this directory is cleared at a high frequency
         let tempDirectory = NSTemporaryDirectory();
         print("tempDirectory = \(tempDirectory)");
@@ -54,6 +55,54 @@ class ViewController: UIViewController {
                 let boolean = arrayOfNamesFromFile![i] as! Bool;
                 print("boolean is \(boolean)");
             }
+        }
+        */
+        
+        //directory management
+        do{
+            //how to create a folder on disk
+            let tempPath = NSTemporaryDirectory() as NSString;
+            let imagesPath = tempPath.stringByAppendingPathComponent("images");
+            try NSFileManager().createDirectoryAtPath(imagesPath, withIntermediateDirectories: true, attributes: nil);
+            //this function does not overwrite an existing folder
+         
+            //how to get a list of folders and files that exist in a certain folder:
+            //get a string array of all files in the directory
+            let directoryContent = try NSFileManager().contentsOfDirectoryAtPath(NSTemporaryDirectory());
+            for dir in directoryContent{
+                print(dir);
+            }
+            
+            //get a NSURL array of all files with their properties
+            let propertiesToGet = [
+                NSURLIsDirectoryKey,
+                NSURLIsReadableKey,
+                NSURLIsWritableKey,
+                NSURLCreationDateKey,
+                NSURLContentAccessDateKey,
+                NSURLContentModificationDateKey,
+                NSURLIsHiddenKey
+            ];
+            
+            let directoryContentWithInfo = try NSFileManager().contentsOfDirectoryAtURL(NSURL(string: NSTemporaryDirectory())!, includingPropertiesForKeys: propertiesToGet, options: .SkipsHiddenFiles);
+            for url in directoryContentWithInfo{
+                print(url.absoluteString);
+                
+                //get boolean from properties
+                var value: AnyObject?;
+                try url.getResourceValue(&value, forKey: NSURLIsDirectoryKey);
+                let number = value as! NSNumber;
+                let isDirectory = number.boolValue;
+                print("is directory = \(isDirectory)");
+                
+                //get date from properties
+                try url.getResourceValue(&value, forKey: NSURLCreationDateKey);
+                let creationDate = value as! NSDate;
+                print("creation date = \(creationDate.description)");
+            }
+            
+        } catch {
+            
         }
     }
 
