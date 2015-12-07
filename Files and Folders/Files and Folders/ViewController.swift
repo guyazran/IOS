@@ -58,6 +58,7 @@ class ViewController: UIViewController {
         }
         */
         
+        /*
         //directory management
         do{
             //how to create a folder on disk
@@ -104,6 +105,17 @@ class ViewController: UIViewController {
         } catch {
             
         }
+        */
+        
+        //how to delete a file or folder
+        do{
+            let destinationPath = ((NSTemporaryDirectory() as NSString).stringByAppendingPathComponent("images") as NSString).stringByAppendingPathComponent("MyFile.txt");
+            try NSFileManager().removeItemAtPath(destinationPath);
+            print("MyFile.txt was deleted");
+        } catch{
+            
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
